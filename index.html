@@ -201,7 +201,10 @@
             border-left: 3px solid #4CAF50;
         }
 
-        /* Facebook Pending State */
+        .comment.negative {
+            border-left-color: #f44336;
+        }
+
         .facebook-pending {
             max-width: 800px;
             margin: 60px auto;
@@ -279,7 +282,7 @@
     <div class="header">
         <h1>Pawa TV Sentiment Dashboard</h1>
         <p>Real-time social media sentiment analysis and communication insights</p>
-        <p class="last-updated">Last updated: 16/12/2025, 10:00:13 | Next update: 17/12/2025, 09:00:00</p>
+        <p class="last-updated" id="lastUpdated">Last updated: Loading...</p>
     </div>
 
     <div class="tabs">
@@ -292,46 +295,29 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <h3>Total Comments</h3>
-                <div class="number">35</div>
+                <div class="number" id="totalComments">--</div>
             </div>
             <div class="stat-card">
                 <h3>Positive Sentiment</h3>
-                <div class="number">10</div>
-                <div class="percentage">28.6%</div>
+                <div class="number" id="positiveCount">--</div>
+                <div class="percentage" id="positivePercent">--%</div>
             </div>
             <div class="stat-card">
                 <h3>Negative Sentiment</h3>
-                <div class="number">1</div>
-                <div class="percentage">2.9%</div>
+                <div class="number" id="negativeCount">--</div>
+                <div class="percentage" id="negativePercent">--%</div>
             </div>
             <div class="stat-card">
                 <h3>Neutral Sentiment</h3>
-                <div class="number">24</div>
-                <div class="percentage">68.6%</div>
+                <div class="number" id="neutralCount">--</div>
+                <div class="percentage" id="neutralPercent">--%</div>
             </div>
         </div>
 
         <div class="recommendations">
             <h2>AI-Powered Communication Recommendations</h2>
-            
-            <div class="recommendation">
-                <h4>✅ Strong Positive Sentiment Detected</h4>
-                <p>28.6% of YouTube comments are positive with very low negative sentiment (2.9%). Continue with current content strategy focusing on political commentary and cultural topics which are resonating well with your audience.</p>
-            </div>
-
-            <div class="recommendation">
-                <h4>🎯 Engagement Opportunity</h4>
-                <p>Comments praising Governor Allan Bird's content and host quality suggest your interview format is working well. Consider producing more 'One on One' interviews with PNG political and cultural figures to capitalize on this positive reception.</p>
-            </div>
-
-            <div class="recommendation">
-                <h4>💡 Content Strategy Recommendation</h4>
-                <p>With 68.6% neutral sentiment, there's opportunity to create more emotionally engaging content. Consider adding calls-to-action in videos to encourage viewers to share their opinions and increase positive engagement.</p>
-            </div>
-
-            <div class="recommendation">
-                <h4>🤝 Community Management</h4>
-                <p>With minimal negative sentiment, your moderation strategy is effective. Continue monitoring comments and responding to positive feedback to build stronger community relationships.</p>
+            <div id="recommendationsContainer">
+                <p style="color: #999; text-align: center;">Loading recommendations...</p>
             </div>
         </div>
 
@@ -339,48 +325,15 @@
             <div class="chart-card">
                 <h3>Sentiment Distribution</h3>
                 <div style="text-align: center; padding: 40px 0;">
-                    <svg width="200" height="200" viewBox="0 0 200 200">
-                        <circle cx="100" cy="100" r="80" fill="none" stroke="#e0e0e0" stroke-width="40"/>
-                        <circle cx="100" cy="100" r="80" fill="none" stroke="#4CAF50" stroke-width="40" 
-                                stroke-dasharray="143.8 502.4" transform="rotate(-90 100 100)"/>
-                        <circle cx="100" cy="100" r="80" fill="none" stroke="#f44336" stroke-width="40" 
-                                stroke-dasharray="14.6 502.4" transform="rotate(61.5 100 100)"/>
-                        <circle cx="100" cy="100" r="80" fill="none" stroke="#9e9e9e" stroke-width="40" 
-                                stroke-dasharray="344 502.4" transform="rotate(76 100 100)"/>
-                    </svg>
-                    <div style="margin-top: 20px;">
-                        <div style="display: inline-block; margin: 0 10px;">
-                            <span style="display: inline-block; width: 12px; height: 12px; background: #4CAF50; border-radius: 2px;"></span>
-                            <span style="font-size: 12px; margin-left: 4px;">Positive</span>
-                        </div>
-                        <div style="display: inline-block; margin: 0 10px;">
-                            <span style="display: inline-block; width: 12px; height: 12px; background: #f44336; border-radius: 2px;"></span>
-                            <span style="font-size: 12px; margin-left: 4px;">Negative</span>
-                        </div>
-                        <div style="display: inline-block; margin: 0 10px;">
-                            <span style="display: inline-block; width: 12px; height: 12px; background: #9e9e9e; border-radius: 2px;"></span>
-                            <span style="font-size: 12px; margin-left: 4px;">Neutral</span>
-                        </div>
-                    </div>
+                    <canvas id="sentimentChart" width="200" height="200"></canvas>
                 </div>
             </div>
 
             <div class="chart-card">
                 <h3>Sentiment Overview</h3>
                 <div style="padding: 20px 0;">
-                    <div style="display: flex; align-items: flex-end; justify-content: space-around; height: 180px;">
-                        <div style="text-align: center;">
-                            <div style="width: 80px; height: 80px; background: #4CAF50; border-radius: 4px;"></div>
-                            <div style="margin-top: 8px; font-size: 12px; color: #666;">Positive</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="width: 80px; height: 10px; background: #f44336; border-radius: 4px;"></div>
-                            <div style="margin-top: 8px; font-size: 12px; color: #666;">Negative</div>
-                        </div>
-                        <div style="text-align: center;">
-                            <div style="width: 80px; height: 180px; background: #9e9e9e; border-radius: 4px;"></div>
-                            <div style="margin-top: 8px; font-size: 12px; color: #666;">Neutral</div>
-                        </div>
+                    <div style="display: flex; align-items: flex-end; justify-content: space-around; height: 180px;" id="barChart">
+                        <!-- Bars will be generated dynamically -->
                     </div>
                 </div>
             </div>
@@ -391,14 +344,14 @@
             <div class="comments-grid">
                 <div class="comment-list">
                     <h4>Top Positive Comments</h4>
-                    <div class="comment">Best host for the show... nice nice</div>
-                    <div class="comment">Thank you Governor Allan Bird for the important reminder. We should celebrate ba...</div>
-                    <div class="comment">Very inspiring message. Thank GOD for such a great Leader. GOD bless you always...</div>
+                    <div id="positiveComments">
+                        <p style="padding: 40px; text-align: center; color: #999;">Loading...</p>
+                    </div>
                 </div>
                 <div class="comment-list">
                     <h4>Top Negative Comments</h4>
-                    <div style="padding: 40px; text-align: center; color: #999;">
-                        No significant negative comments detected
+                    <div id="negativeComments">
+                        <p style="padding: 40px; text-align: center; color: #999;">Loading...</p>
                     </div>
                 </div>
             </div>
@@ -411,7 +364,7 @@
             <div class="icon">📘</div>
             <h2>Facebook Integration Pending</h2>
             <p>
-                We're currently submitting for Meta Graph API approval to access Facebook data. 
+                We're currently awaiting Meta developer support response to resolve API permissions. 
                 Once approved, this tab will show real-time sentiment analysis from Pawa TV's Facebook page.
             </p>
             
@@ -426,29 +379,197 @@
             </div>
 
             <div class="status">
-                <p>Status: <span style="color: #f59e0b;">Awaiting Meta API Review</span></p>
+                <p>Status: <span style="color: #f59e0b;">Awaiting Meta Developer Support Response</span></p>
             </div>
         </div>
     </div>
 
     <script>
         function switchTab(tabName) {
-            // Hide all tabs
             document.querySelectorAll('.tab-content').forEach(tab => {
                 tab.classList.remove('active');
             });
             
-            // Remove active class from all tab buttons
             document.querySelectorAll('.tab').forEach(button => {
                 button.classList.remove('active');
             });
             
-            // Show selected tab
             document.getElementById(tabName + '-tab').classList.add('active');
-            
-            // Add active class to clicked button
             event.target.classList.add('active');
         }
+
+        // Load data from JSON file
+        async function loadDashboardData() {
+            try {
+                const response = await fetch('youtube_dashboard_data.json');
+                const data = await response.json();
+                
+                updateDashboard(data);
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+                document.getElementById('totalComments').textContent = '--';
+                document.getElementById('lastUpdated').textContent = 'Last updated: No data available';
+            }
+        }
+
+        function updateDashboard(data) {
+            // Update timestamp
+            document.getElementById('lastUpdated').textContent = 
+                `Last updated: ${data.lastUpdated}`;
+            
+            // Update stats
+            document.getElementById('totalComments').textContent = data.stats.total;
+            document.getElementById('positiveCount').textContent = data.stats.positive;
+            document.getElementById('positivePercent').textContent = 
+                `${data.stats.positive_pct.toFixed(1)}%`;
+            document.getElementById('negativeCount').textContent = data.stats.negative;
+            document.getElementById('negativePercent').textContent = 
+                `${data.stats.negative_pct.toFixed(1)}%`;
+            document.getElementById('neutralCount').textContent = data.stats.neutral;
+            document.getElementById('neutralPercent').textContent = 
+                `${data.stats.neutral_pct.toFixed(1)}%`;
+            
+            // Update recommendations
+            const recContainer = document.getElementById('recommendationsContainer');
+            recContainer.innerHTML = '';
+            data.recommendations.forEach(rec => {
+                const icon = rec.startsWith('✓') ? '✅' : 
+                            rec.startsWith('⚠') ? '⚠️' : '💡';
+                const div = document.createElement('div');
+                div.className = 'recommendation';
+                div.innerHTML = `<h4>${icon} ${rec}</h4>`;
+                recContainer.appendChild(div);
+            });
+            
+            // Update positive comments
+            const posComments = document.getElementById('positiveComments');
+            posComments.innerHTML = '';
+            if (data.topPositive.length === 0) {
+                posComments.innerHTML = '<p style="padding: 40px; text-align: center; color: #999;">No positive comments detected</p>';
+            } else {
+                data.topPositive.slice(0, 5).forEach(comment => {
+                    const div = document.createElement('div');
+                    div.className = 'comment';
+                    div.textContent = comment.text.length > 120 ? 
+                        comment.text.substring(0, 120) + '...' : comment.text;
+                    posComments.appendChild(div);
+                });
+            }
+            
+            // Update negative comments
+            const negComments = document.getElementById('negativeComments');
+            negComments.innerHTML = '';
+            if (data.topNegative.length === 0) {
+                negComments.innerHTML = '<p style="padding: 40px; text-align: center; color: #999;">No significant negative comments detected</p>';
+            } else {
+                data.topNegative.slice(0, 5).forEach(comment => {
+                    const div = document.createElement('div');
+                    div.className = 'comment negative';
+                    div.textContent = comment.text.length > 120 ? 
+                        comment.text.substring(0, 120) + '...' : comment.text;
+                    negComments.appendChild(div);
+                });
+            }
+            
+            // Update charts
+            updateBarChart(data.stats);
+            updatePieChart(data.stats);
+        }
+
+        function updateBarChart(stats) {
+            const barChart = document.getElementById('barChart');
+            const maxHeight = 180;
+            
+            const posHeight = (stats.positive_pct / 100) * maxHeight;
+            const negHeight = (stats.negative_pct / 100) * maxHeight;
+            const neuHeight = (stats.neutral_pct / 100) * maxHeight;
+            
+            barChart.innerHTML = `
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: ${posHeight}px; background: #4CAF50; border-radius: 4px;"></div>
+                    <div style="margin-top: 8px; font-size: 12px; color: #666;">Positive</div>
+                    <div style="font-size: 14px; font-weight: 600; margin-top: 4px;">${stats.positive_pct.toFixed(1)}%</div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: ${Math.max(negHeight, 5)}px; background: #f44336; border-radius: 4px;"></div>
+                    <div style="margin-top: 8px; font-size: 12px; color: #666;">Negative</div>
+                    <div style="font-size: 14px; font-weight: 600; margin-top: 4px;">${stats.negative_pct.toFixed(1)}%</div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="width: 80px; height: ${neuHeight}px; background: #9e9e9e; border-radius: 4px;"></div>
+                    <div style="margin-top: 8px; font-size: 12px; color: #666;">Neutral</div>
+                    <div style="font-size: 14px; font-weight: 600; margin-top: 4px;">${stats.neutral_pct.toFixed(1)}%</div>
+                </div>
+            `;
+        }
+
+        function updatePieChart(stats) {
+            const canvas = document.getElementById('sentimentChart');
+            if (!canvas) return;
+            
+            const ctx = canvas.getContext('2d');
+            const centerX = 100;
+            const centerY = 100;
+            const radius = 80;
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const positiveAngle = (stats.positive_pct / 100) * 2 * Math.PI;
+            const negativeAngle = (stats.negative_pct / 100) * 2 * Math.PI;
+            const neutralAngle = (stats.neutral_pct / 100) * 2 * Math.PI;
+            
+            let currentAngle = -Math.PI / 2;
+            
+            // Draw positive
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + positiveAngle);
+            ctx.lineTo(centerX, centerY);
+            ctx.fillStyle = '#4CAF50';
+            ctx.fill();
+            currentAngle += positiveAngle;
+            
+            // Draw negative
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + negativeAngle);
+            ctx.lineTo(centerX, centerY);
+            ctx.fillStyle = '#f44336';
+            ctx.fill();
+            currentAngle += negativeAngle;
+            
+            // Draw neutral
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, currentAngle, currentAngle + neutralAngle);
+            ctx.lineTo(centerX, centerY);
+            ctx.fillStyle = '#9e9e9e';
+            ctx.fill();
+            
+            // Add legend
+            const legend = document.createElement('div');
+            legend.style.marginTop = '20px';
+            legend.innerHTML = `
+                <div style="display: inline-block; margin: 0 10px;">
+                    <span style="display: inline-block; width: 12px; height: 12px; background: #4CAF50; border-radius: 2px;"></span>
+                    <span style="font-size: 12px; margin-left: 4px;">Positive (${stats.positive_pct.toFixed(1)}%)</span>
+                </div>
+                <div style="display: inline-block; margin: 0 10px;">
+                    <span style="display: inline-block; width: 12px; height: 12px; background: #f44336; border-radius: 2px;"></span>
+                    <span style="font-size: 12px; margin-left: 4px;">Negative (${stats.negative_pct.toFixed(1)}%)</span>
+                </div>
+                <div style="display: inline-block; margin: 0 10px;">
+                    <span style="display: inline-block; width: 12px; height: 12px; background: #9e9e9e; border-radius: 2px;"></span>
+                    <span style="font-size: 12px; margin-left: 4px;">Neutral (${stats.neutral_pct.toFixed(1)}%)</span>
+                </div>
+            `;
+            
+            const chartDiv = canvas.parentElement;
+            const existingLegend = chartDiv.querySelector('div:last-child');
+            if (existingLegend && existingLegend.innerHTML.includes('Positive')) {
+                existingLegend.remove();
+            }
+            chartDiv.appendChild(legend);
+        }
+
+        window.addEventListener('DOMContentLoaded', loadDashboardData);
     </script>
 </body>
 </html>
