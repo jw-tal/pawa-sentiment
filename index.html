@@ -48,6 +48,57 @@
             font-weight: 400;
         }
 
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .refresh-button {
+            background: #1a1a1a;
+            border: 1px solid #3a3a3a;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: 'Instrument Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .refresh-button:hover {
+            background: #2a2a2a;
+            border-color: #4a4a4a;
+        }
+
+        .refresh-button:active {
+            transform: scale(0.98);
+        }
+
+        .refresh-button.loading {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .refresh-status {
+            color: #666;
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        .refresh-status.success {
+            color: #4CAF50;
+        }
+
+        .refresh-status.error {
+            color: #f44336;
+        }
+
         .tabs {
             display: flex;
             background: #141414;
@@ -329,6 +380,13 @@
         <h1>Pawa TV Sentiment Dashboard</h1>
         <p>Real-time social media sentiment analysis and communication insights</p>
         <p class="last-updated" id="lastUpdated">Last updated: Loading...</p>
+        <div class="header-controls">
+            <button class="refresh-button" id="refreshButton" onclick="manualRefresh()">
+                <span id="refreshIcon">🔄</span>
+                <span id="refreshText">Refresh Data</span>
+            </button>
+            <span class="refresh-status" id="refreshStatus"></span>
+        </div>
     </div>
 
     <div class="tabs">
@@ -435,6 +493,60 @@
     </div>
 
     <script>
+        // Manual refresh function
+        async function manualRefresh() {
+            const button = document.getElementById('refreshButton');
+            const status = document.getElementById('refreshStatus');
+            const icon = document.getElementById('refreshIcon');
+            const text = document.getElementById('refreshText');
+            
+            // Disable button and show loading state
+            button.classList.add('loading');
+            button.disabled = true;
+            icon.textContent = '⏳';
+            text.textContent = 'Refreshing...';
+            status.textContent = '';
+            status.className = 'refresh-status';
+            
+            try {
+                // Add timestamp to prevent caching
+                const timestamp = new Date().getTime();
+                const response = await fetch(`youtube_dashboard_data.json?t=${timestamp}`);
+                
+                if (!response.ok) {
+                    throw new Error('Failed to fetch data');
+                }
+                
+                const data = await response.json();
+                updateDashboard(data);
+                
+                // Show success message
+                status.textContent = 'Data refreshed successfully!';
+                status.className = 'refresh-status success';
+                
+                // Clear success message after 3 seconds
+                setTimeout(() => {
+                    status.textContent = '';
+                }, 3000);
+                
+            } catch (error) {
+                console.error('Refresh error:', error);
+                status.textContent = 'Failed to refresh. Please try again.';
+                status.className = 'refresh-status error';
+                
+                // Clear error message after 5 seconds
+                setTimeout(() => {
+                    status.textContent = '';
+                }, 5000);
+            } finally {
+                // Re-enable button
+                button.classList.remove('loading');
+                button.disabled = false;
+                icon.textContent = '🔄';
+                text.textContent = 'Refresh Data';
+            }
+        }
+
         function switchTab(tabName) {
             document.querySelectorAll('.tab-content').forEach(tab => {
                 tab.classList.remove('active');
