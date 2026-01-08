@@ -37,5 +37,6 @@ jobs:
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "GitHub Actions Bot"
+        git pull --rebase
         git add youtube_dashboard_data.json
         git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: YouTube sentiment data $(date +'%Y-%m-%d %H:%M:%S')" && git push)
