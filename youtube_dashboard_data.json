@@ -1,53 +1,163 @@
 {
-  "timestamp": "2026-01-08T09:24:23.302347",
-  "lastUpdated": "08/01/2026, 09:24:23",
+  "timestamp": "2026-01-08T22:31:05.292718",
+  "lastUpdated": "08/01/2026, 22:31:05",
   "stats": {
-    "total": 3,
+    "total": 5,
     "positive": 0,
-    "negative": 1,
-    "neutral": 2,
+    "negative": 0,
+    "neutral": 5,
     "positive_pct": 0.0,
-    "negative_pct": 33.33333333333333,
-    "neutral_pct": 66.66666666666666
+    "negative_pct": 0.0,
+    "neutral_pct": 100.0,
+    "average_score": 0.0
   },
   "recommendations": [
-    "⚠ Elevated negative sentiment detected",
-    "→ Review recent content and address audience concerns",
-    "→ High neutral sentiment - opportunity for deeper engagement",
-    "→ Consider more interactive content to boost positive response"
+    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "📺 Brand Awareness: 20.0% directly mention Pawa TV. 0 positive brand associations detected. Strong brand recognition.",
+    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [],
-  "topNegative": [
-    {
-      "text": "Mo pawa to you my black brothers!✊🏾",
-      "author": "@superwassou",
-      "score": -0.16666666666666666
-    }
-  ],
+  "topNegative": [],
   "allComments": [
+    {
+      "text": "PNG cannot keep door open for occupiers of natives land in Australia and New Zealand. Especially Australia that has and continues to ethically cleanse indigenous people, as well as denies indigenous people basic rights and recognition.",
+      "author": "@benjyadeola567",
+      "video_id": "4kIeu5haOeU",
+      "video_title": "A Trade Revolution with China #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "analysis_details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "facts well statedd👍",
+      "author": "@FracisBagu",
+      "video_id": "4kIeu5haOeU",
+      "video_title": "A Trade Revolution with China #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "analysis_details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Yup. You need a lot of investment. Not sure how appealing is downstream processing to foreign investors. If you need a whole infrastructure built around it, you'd need government investment.",
       "author": "@Amin.Ashraf",
-      "sentiment": "Neutral",
-      "score": 0.08125,
       "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics"
+      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": -0.0,
+      "confidence": "low",
+      "analysis_details": {
+        "positive_score": -0.0,
+        "negative_score": -0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
     },
     {
       "text": "Its about to be 2026, and you're just now lookin @ Agro Processing?  What's stopping you is your so called leaders. You should hold them accountable.  Hold the accountable for Selling out their country.",
       "author": "@MrNelson231",
-      "sentiment": "Neutral",
-      "score": 0.0,
       "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics"
+      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "analysis_details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": true
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
     },
     {
       "text": "Mo pawa to you my black brothers!✊🏾",
       "author": "@superwassou",
-      "sentiment": "Negative",
-      "score": -0.16666666666666666,
       "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics"
+      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "analysis_details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": true,
+          "has_location": false,
+          "exclamation_count": 1,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
     }
   ]
 }
