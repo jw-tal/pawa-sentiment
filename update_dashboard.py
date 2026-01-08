@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Automated Dashboard Update Script
+Automated Dashboard Update Script with PNG Sentiment Harvester
 Runs via GitHub Actions to collect YouTube data and update dashboard
+Uses advanced PNG-aware sentiment analysis
 """
 
 import os
@@ -9,25 +10,16 @@ import json
 import time
 from datetime import datetime
 from googleapiclient.discovery import build
-from textblob import TextBlob
+
+# Import PNG Sentiment Harvester
+from png_sentiment_harvester import PNGSentimentHarvester
 
 # Get API key from environment variable (set in GitHub Secrets)
 API_KEY = os.environ.get('YOUTUBE_API_KEY')
 
-def analyze_sentiment(text):
-    """Analyze sentiment using TextBlob"""
-    try:
-        analysis = TextBlob(text)
-        polarity = analysis.sentiment.polarity
-        
-        if polarity > 0.1:
-            return 'Positive', polarity
-        elif polarity < -0.1:
-            return 'Negative', polarity
-        else:
-            return 'Neutral', polarity
-    except:
-        return 'Neutral', 0.0
+# Initialize harvester
+harvester = PNGSentimentHarvester()
+
 
 def get_channel_id(youtube):
     """Get Pawa TV channel ID"""
@@ -45,6 +37,7 @@ def get_channel_id(youtube):
     except Exception as e:
         print(f"Error getting channel ID: {str(e)}")
         return None
+
 
 def fetch_all_comments_from_video(youtube, video_id):
     """Fetch ALL comments from a video with pagination"""
@@ -75,8 +68,9 @@ def fetch_all_comments_from_video(youtube, video_id):
     
     return all_comments
 
+
 def collect_youtube_data():
-    """Main function to collect YouTube data"""
+    """Main function to collect YouTube data with PNG-aware sentiment analysis"""
     print("🚀 Starting YouTube data collection...")
     
     try:
@@ -139,16 +133,9 @@ def collect_youtube_data():
         if video_comments:
             for item in video_comments:
                 comment = item['snippet']['topLevelComment']['snippet']
-                comment_text = comment['textDisplay']
-                author = comment['authorDisplayName']
-                
-                sentiment, score = analyze_sentiment(comment_text)
-                
                 all_comments.append({
-                    'text': comment_text,
-                    'author': author,
-                    'sentiment': sentiment,
-                    'score': score,
+                    'text': comment['textDisplay'],
+                    'author': comment['authorDisplayName'],
                     'video_id': video_id,
                     'video_title': video_title
                 })
@@ -159,80 +146,156 @@ def collect_youtube_data():
     
     return all_comments
 
-def calculate_statistics(comments):
-    """Calculate sentiment statistics"""
-    if not comments:
-        return {
-            'total': 0,
-            'positive': 0,
-            'negative': 0,
-            'neutral': 0,
-            'positive_pct': 0,
-            'negative_pct': 0,
-            'neutral_pct': 0
-        }
+
+def analyze_comments_with_harvester(comments):
+    """Analyze comments using PNG Sentiment Harvester"""
+    print(f"\n🔍 Analyzing {len(comments)} comments with PNG Sentiment Harvester...")
     
-    total = len(comments)
-    positive = sum(1 for c in comments if c['sentiment'] == 'Positive')
-    negative = sum(1 for c in comments if c['sentiment'] == 'Negative')
-    neutral = sum(1 for c in comments if c['sentiment'] == 'Neutral')
+    analyzed_comments = harvester.analyze_batch(comments)
+    
+    # Print some insights
+    high_confidence = [c for c in analyzed_comments if c.get('confidence') == 'high']
+    print(f"✓ Analysis complete: {len(high_confidence)} high-confidence results")
+    
+    return analyzed_comments
+
+
+def calculate_statistics(analyzed_comments):
+    """Calculate sentiment statistics using harvester's summary"""
+    summary = harvester.generate_summary(analyzed_comments)
     
     return {
-        'total': total,
-        'positive': positive,
-        'negative': negative,
-        'neutral': neutral,
-        'positive_pct': (positive / total * 100) if total > 0 else 0,
-        'negative_pct': (negative / total * 100) if total > 0 else 0,
-        'neutral_pct': (neutral / total * 100) if total > 0 else 0
+        'total': summary['total'],
+        'positive': summary['counts']['positive'],
+        'negative': summary['counts']['negative'],
+        'neutral': summary['counts']['neutral'],
+        'positive_pct': summary['percentages']['positive'],
+        'negative_pct': summary['percentages']['negative'],
+        'neutral_pct': summary['percentages']['neutral'],
+        'average_score': summary.get('average_score', 0)
     }
 
-def generate_recommendations(stats):
-    """Generate AI recommendations"""
+
+def generate_recommendations(stats, analyzed_comments):
+    """Generate AI recommendations based on PNG-aware analysis"""
     recommendations = []
     
-    if stats['positive_pct'] > 60:
-        recommendations.append("✓ Strong positive sentiment - audience is highly engaged")
-        recommendations.append("→ Consider increasing content frequency to maintain momentum")
-    elif stats['negative_pct'] > 30:
-        recommendations.append("⚠ Elevated negative sentiment detected")
-        recommendations.append("→ Review recent content and address audience concerns")
+    pos_pct = stats['positive_pct']
+    neg_pct = stats['negative_pct']
+    neu_pct = stats['neutral_pct']
     
-    if stats['neutral_pct'] > 60:
-        recommendations.append("→ High neutral sentiment - opportunity for deeper engagement")
-        recommendations.append("→ Consider more interactive content to boost positive response")
+    # High confidence insights
+    high_conf_positive = [c for c in analyzed_comments 
+                         if c.get('sentiment') == 'Positive' and c.get('confidence') == 'high']
+    high_conf_negative = [c for c in analyzed_comments 
+                         if c.get('sentiment') == 'Negative' and c.get('confidence') == 'high']
     
-    if not recommendations:
-        recommendations.append("→ Sentiment distribution is balanced")
-        recommendations.append("→ Continue current content strategy")
+    # Check for PNG-specific engagement
+    tok_pisin_comments = [c for c in analyzed_comments 
+                         if any(term in c.get('text', '').lower() 
+                               for term in ['em nau', 'trupla', 'gutpela', 'naispla', 'giaman', 'nogut'])]
+    
+    # Analyze sentiment distribution
+    if pos_pct > 60:
+        recommendations.append(
+            f"✓ Strong positive sentiment ({pos_pct:.1f}%) - PNG audience highly engaged. "
+            f"Found {len(high_conf_positive)} high-confidence positive comments. "
+            f"Continue current content strategy and increase posting frequency."
+        )
+    elif pos_pct > 40:
+        recommendations.append(
+            f"✓ Healthy positive engagement ({pos_pct:.1f}%). "
+            f"Build on this momentum by responding to comments and creating similar content."
+        )
+    
+    if neg_pct > 30:
+        recommendations.append(
+            f"⚠ Elevated negative sentiment ({neg_pct:.1f}%) detected. "
+            f"Review {len(high_conf_negative)} high-confidence negative comments for specific concerns. "
+            f"Consider addressing audience feedback in next video."
+        )
+    elif neg_pct > 15:
+        recommendations.append(
+            f"→ Moderate negative feedback ({neg_pct:.1f}%). "
+            f"Monitor comments for constructive criticism and address concerns transparently."
+        )
+    
+    if neu_pct > 60:
+        recommendations.append(
+            f"→ High neutral sentiment ({neu_pct:.1f}%) - opportunity for deeper engagement. "
+            f"Add more calls-to-action and emotionally resonant content to convert neutral viewers."
+        )
+    
+    # PNG-specific insights
+    if tok_pisin_comments:
+        tok_pisin_pct = (len(tok_pisin_comments) / stats['total']) * 100
+        recommendations.append(
+            f"🇵🇬 PNG Cultural Engagement: {tok_pisin_pct:.1f}% of comments use Tok Pisin or PNG English. "
+            f"Strong local audience connection detected. Consider more PNG-focused content."
+        )
+    
+    # Brand engagement
+    brand_mentions = [c for c in analyzed_comments 
+                     if 'pawa' in c.get('text', '').lower()]
+    if brand_mentions:
+        brand_pct = (len(brand_mentions) / stats['total']) * 100
+        brand_positive = [c for c in brand_mentions if c.get('sentiment') == 'Positive']
+        recommendations.append(
+            f"📺 Brand Awareness: {brand_pct:.1f}% directly mention Pawa TV. "
+            f"{len(brand_positive)} positive brand associations detected. Strong brand recognition."
+        )
+    
+    # Community size recommendation
+    if stats['total'] > 50:
+        recommendations.append(
+            f"📈 Active community with {stats['total']} comments. "
+            f"Maintain engagement through regular responses and community features."
+        )
+    elif stats['total'] > 20:
+        recommendations.append(
+            f"🌱 Growing community ({stats['total']} comments). "
+            f"Encourage discussion through strategic questions and community interaction."
+        )
+    else:
+        recommendations.append(
+            f"🎬 Early-stage engagement ({stats['total']} comments). "
+            f"Focus on consistent posting and cross-platform promotion to build audience."
+        )
     
     return recommendations
+
 
 def save_dashboard_data(comments, stats):
     """Save data for dashboard"""
     print("\n💾 Saving data...")
     
-    # Get top comments
-    positive_comments = [c for c in comments if c['sentiment'] == 'Positive']
-    negative_comments = [c for c in comments if c['sentiment'] == 'Negative']
-    
-    positive_comments.sort(key=lambda x: x['score'], reverse=True)
-    negative_comments.sort(key=lambda x: x['score'])
+    # Get top comments using harvester's summary
+    summary = harvester.generate_summary(comments)
     
     dashboard_data = {
         'timestamp': datetime.now().isoformat(),
         'lastUpdated': datetime.now().strftime('%d/%m/%Y, %H:%M:%S'),
         'stats': stats,
-        'recommendations': generate_recommendations(stats),
+        'recommendations': generate_recommendations(stats, comments),
         'topPositive': [
-            {'text': c['text'], 'author': c['author'], 'score': c['score']}
-            for c in positive_comments[:10]
+            {
+                'text': c.get('text', ''),
+                'author': c.get('author', ''),
+                'score': c.get('sentiment_score', 0),
+                'confidence': c.get('confidence', 'unknown')
+            }
+            for c in summary['top_positive']
         ],
         'topNegative': [
-            {'text': c['text'], 'author': c['author'], 'score': c['score']}
-            for c in negative_comments[:10]
+            {
+                'text': c.get('text', ''),
+                'author': c.get('author', ''),
+                'score': c.get('sentiment_score', 0),
+                'confidence': c.get('confidence', 'unknown')
+            }
+            for c in summary['top_negative']
         ],
-        'allComments': comments[:100]
+        'allComments': comments[:100]  # Store first 100 for reference
     }
     
     with open('youtube_dashboard_data.json', 'w', encoding='utf-8') as f:
@@ -241,10 +304,11 @@ def save_dashboard_data(comments, stats):
     print("✓ Data saved to youtube_dashboard_data.json")
     return True
 
+
 def main():
-    """Main execution"""
+    """Main execution with PNG Sentiment Harvester"""
     print("=" * 60)
-    print("PAWA TV DASHBOARD AUTO-UPDATE")
+    print("PAWA TV DASHBOARD AUTO-UPDATE (PNG-Enhanced)")
     print("=" * 60)
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
@@ -259,23 +323,28 @@ def main():
         print("\n✗ Failed to collect data")
         return False
     
+    # Analyze with PNG Sentiment Harvester
+    analyzed_comments = analyze_comments_with_harvester(comments)
+    
     # Calculate stats
-    stats = calculate_statistics(comments)
+    stats = calculate_statistics(analyzed_comments)
     print(f"\n📊 Results:")
     print(f"   Total: {stats['total']} comments")
     print(f"   Positive: {stats['positive']} ({stats['positive_pct']:.1f}%)")
     print(f"   Negative: {stats['negative']} ({stats['negative_pct']:.1f}%)")
     print(f"   Neutral: {stats['neutral']} ({stats['neutral_pct']:.1f}%)")
+    print(f"   Average Score: {stats['average_score']:.2f}")
     
     # Save data
-    success = save_dashboard_data(comments, stats)
+    success = save_dashboard_data(analyzed_comments, stats)
     
     if success:
-        print("\n✅ Dashboard update complete!")
+        print("\n✅ Dashboard update complete with PNG-enhanced analysis!")
         return True
     else:
         print("\n✗ Failed to save data")
         return False
+
 
 if __name__ == "__main__":
     success = main()
