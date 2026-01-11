@@ -1,0 +1,3789 @@
+[
+  {
+    "channel": "EMTV Online",
+    "url": "https://www.youtube.com/@emtvonline",
+    "summary": {
+      "total": 3,
+      "counts": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 2
+      },
+      "percentages": {
+        "positive": 0.0,
+        "negative": 33.3,
+        "neutral": 66.7
+      },
+      "average_score": -0.6,
+      "top_positive": [],
+      "top_negative": [
+        {
+          "text": "The worst public officer appointment ever!",
+          "author": "@RonneyEpon",
+          "video_title": "NATIONAL EMTV NEWS | 6PM | THURSDAY 08th JANUARY, 2026",
+          "video_id": "1q5RyPEDQz0",
+          "sentiment": "Negative",
+          "sentiment_score": -1.8,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.8,
+            "total_magnitude": 1.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "worst",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 0
+  },
+  {
+    "channel": "TVWAN Online",
+    "url": "https://www.youtube.com/@TVWANOnline",
+    "summary": {
+      "total": 23,
+      "counts": {
+        "positive": 3,
+        "negative": 1,
+        "neutral": 19
+      },
+      "percentages": {
+        "positive": 13.0,
+        "negative": 4.3,
+        "neutral": 82.6
+      },
+      "average_score": 0.2,
+      "top_positive": [
+        {
+          "text": "Very good and excellent Police and Military operation conducted. This will set a precedent in future operations. Engaging in arms conflict against Military and Police personel is an act of terrorism according to the Anti Terrorism Act 2024. Government need to create a \"Guantanamo Bay\" for all domestic terrorists across the country that bypasses normal court proceedings.",
+          "author": "@Ignatius7778",
+          "video_title": "Tsak Valley Operation",
+          "video_id": "PDw_0upWxq4",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "excellent",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Every year a lot of civil engineers were graduated from our university but they couldn't design a good road , our contractors employ those fox  but they couldn't deliver that's y government is awarding this contract to Chinese company.  Our civil engineers must pull their shocks up do their best to earn the trust of the government.",
+          "author": "@inziegunam699",
+          "video_title": "Local support vital",
+          "video_id": "0vVt4HWa4Ok",
+          "sentiment": "Positive",
+          "sentiment_score": 1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 1.2,
+            "negative_score": 0.0,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "❤😅 pretty perfectly fine.",
+          "author": "@FrielEngam",
+          "video_title": "TVWAN News | Live 6pm | Thursday 8th January 2026",
+          "video_id": "ttQ0Yi4q5Kc",
+          "sentiment": "Positive",
+          "sentiment_score": 0.7,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.7,
+            "negative_score": 0.0,
+            "total_magnitude": 0.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "fine",
+                  "weight": 0.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": [
+        {
+          "text": "The PNG Government needs to seriously look at equipping our Security Forces with proper field hardware and technology.  We need Drones and electronic systems. Also amoured vehicles and helicopters. \n\nToyota 10 seaters and M16s are inadequate and outdated....\n\nThe Government needs to seriously address this technical gap so our men and women in both the Army and Police can respond better.....",
+          "author": "@MrRonald1231",
+          "video_title": "Tsak Valley Operation",
+          "video_id": "PDw_0upWxq4",
+          "sentiment": "Negative",
+          "sentiment_score": -1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.2,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "inadequate",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 0
+  },
+  {
+    "channel": "Post Courier",
+    "url": "https://www.youtube.com/@PostcourierOnline",
+    "summary": {
+      "total": 584,
+      "counts": {
+        "positive": 93,
+        "negative": 45,
+        "neutral": 446
+      },
+      "percentages": {
+        "positive": 15.9,
+        "negative": 7.7,
+        "neutral": 76.4
+      },
+      "average_score": 0.12,
+      "top_positive": [
+        {
+          "text": "This is a very dangerous trend my dear wantoks. Seeing the  youths and the future of such a great nation as PNG engaging in such activities is very sad. PNG nice ples ya, out of all the Melanesian countries, we look up to you as elder brother. Teach our youths the good ways. Stay strong PNG. \nGreetings from S.I.\nGod bless PNG and S.I.",
+          "author": "@chrisramo3895",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Positive",
+          "sentiment_score": 4.68,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.68,
+            "negative_score": 0.0,
+            "total_magnitude": 4.68,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Trupla leaders blo pipol blo Papua new guinea. Opposition. Too good.",
+          "author": "@StevenGeita",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Positive",
+          "sentiment_score": 4.4,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.4,
+            "negative_score": 0.0,
+            "total_magnitude": 4.4,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Big lesson learned today is that - Government MPs Chose MONEY over the people of PNG.\n\nIt looks like if you pay millions to MP you can keep them to do wrong - like the government.\n\nMoney won the VONC today.\n\nMPs are very weak and fall for money like the 80 government MPs did today. \n\nNext time - address the money first.\n\nThese 80 government MPs have no problem in destroying the country.",
+          "author": "@Project-zb9vx",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.74,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.74,
+            "negative_score": -0.0,
+            "total_magnitude": 3.74,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "weak",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "wrong",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Bring back corporal punishment with the old education  system .....kids have to be disciplined at the lower level at school and as they grow up they are instilled with good discipline and characters.....Family is  the root and  foundation to building good behaviors and attitudes of our children before they go to school.....All schools should have counseling lessons( guidance) with Counselors to tackle such arising issues at school....!!\n\nSchools should set tough disciplinary measures on such students and if it means students act beyond then let the law take its full cause on them,let them be treated as criminals.....!! \n\nThumbs up Kokopo Men in Blue...",
+          "author": "@FelixKembu",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Positive",
+          "sentiment_score": 3.36,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.36,
+            "negative_score": 0.0,
+            "total_magnitude": 3.36,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 4,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "The true leaders who have the heart for this nation who fought the battle for the good of this country and the bulk population of this country are with you despite the lost and we are praying that our good Lord will judge who is wrong and right... let's hope to see what comes next.. good luck.. very strong opposition..",
+          "author": "@FelixTasi",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.12,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.68,
+            "negative_score": -1.56,
+            "total_magnitude": 6.24,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 3
+                }
+              ],
+              "negative": [
+                {
+                  "term": "wrong",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Still our prayers are with you oppositions our Good God iknows your hearts n one good fine day He the Lord will change the nation with new leadership",
+          "author": "@JacintaLaminoGetio",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.1,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.1,
+            "negative_score": 0.0,
+            "total_magnitude": 3.1,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "fine",
+                  "weight": 0.7,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Thanks to Government of the day for this wonderful service to a place that has been ignore for decant by our former leaders . Great and its blessing",
+          "author": "@mathiasjacob1348",
+          "video_title": "Morobe to Gulf missing link road about to be completed",
+          "video_id": "A6fDa_OtOr8",
+          "sentiment": "Positive",
+          "sentiment_score": 3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.0,
+            "negative_score": 0.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "wonderful",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "All of you are very smart people. But may be are not trained or skilled to assess the game played by the government side.  I may be wrong or misunderstanding the whole scenario there but from both VONC, you allowed both candidates for PM from the Government side.. you ignored your own members who had always been there.  Why did that happen? Did you doubt your capabilities  of supporting your appointed candidate?\nYou split camps and that caused instability for a better horse trading.  Something is wrong somewhere.  Never give up. \" If you stand for the truth, you will always stand alone\".  Better luck next time.",
+          "author": "@GatinBayyomNai",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.0,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 3.0,
+            "negative_score": -0.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": true
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "wrong",
+                  "weight": -1.2,
+                  "count": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "K25,000 for a return of K125,000 in that amount of time is too good to be true.\n\nWe are prime to be eaten up because inherently we still have this belief somewhere in the back regions of our mind that cargo will indeed fall out of the sky.\n\nOur people are destroyed for a lack of knowledge!",
+          "author": "@kinatoea6745",
+          "video_title": "Investors in Kokopo demand their money",
+          "video_id": "hIKukP8tg-Y",
+          "sentiment": "Positive",
+          "sentiment_score": 2.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.7,
+            "negative_score": 0.0,
+            "total_magnitude": 2.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Good Job PM & Hon Powes Parkop job well done.\n\nKeep Port Moresby Safe.",
+          "author": "@ElaiNavi-YouTube",
+          "video_title": "PM James Marape launched new AI CCTV in POM",
+          "video_id": "u_6He47DmjI",
+          "sentiment": "Positive",
+          "sentiment_score": 2.4,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.4,
+            "negative_score": 0.0,
+            "total_magnitude": 2.4,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "well done",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": [
+        {
+          "text": "It is really sad to read about our young men behaving in such a manner without considering the importance of education. They lest forget that they will be future heads of their own families one day. School fights on the other hand, will do no good but promote disunity, violence, hatred and jealousy amongst young men who are supposed to be great mentors to those after them. I am surprised DBTS students who are taught discipline and strict morals in school are part of this violent act when they should be leading by great example to others. Let us pray for our younger generation that they may seek God's wisdom and grace to do what is right. Also to invoke the power of the Holy Spirit to inspire and guide them on the right path with the help of our Blessed Mother Mary, the Mother of Jesus.",
+          "author": "@emilylopili-kakpo2181",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Negative",
+          "sentiment_score": -6.24,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -6.24,
+            "total_magnitude": 6.24,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "You have stood for what you believed was right. The system and your fellow leaders have made their choice. Hereon, there's not much to be done. Wait till 2027. \nNow, let's not cry over the spilled milk. Go back to your districts and provinces and do the work mandated to you. The PM seat is not given to you. Let's eat what's on our plate. Not all of us are perfect. Let's not point fingers as if we are perfect. Maybe nature na Bikpla laikim current PM stap so yumi lusim. Some of your arguments are spacious arguments, and you are losing the respect of some of us. You are barking at every tree and confusing us.\nAnyway, congrats for standing up for what you know was right. Now was not the time.",
+          "author": "@ElijahPaul-p7k",
+          "video_title": "The Opposition is now live in a Press Conference following the unsuccesful Vote-of-No-Confidence",
+          "video_id": "SnxlGmwnwDk",
+          "sentiment": "Negative",
+          "sentiment_score": -5.76,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -5.76,
+            "total_magnitude": 5.76,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "congrats",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "perfect",
+                  "weight": 1.8,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "A very sad situation. Many of this schemes have foreign roots. Most of these schemes are foreign owned, used in channelling funds out of PNG. \"Bulut na Tuat  monie  blo yu bihainim tok blessing blo Anutu, yu hatwok na kisim, man nogut giamanim yu na yu lusim pinis\".  It is gone, it cannot be taken back. These are schemes just like War Victim, Mama Lain, Papa Lain, Green Finance such as SSE etc.....",
+          "author": "@ben_2007-q3y",
+          "video_title": "Investors in Kokopo demand their money",
+          "video_id": "hIKukP8tg-Y",
+          "sentiment": "Negative",
+          "sentiment_score": -3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.9,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogut",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "pinis",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Government has come out time and time again, warning us citizens against these kind of pyramid schemes. Yet people never take heed. A 400% return on one's investment over a space of 3 months is too good to be true, and has always turns out to be so in the end.",
+          "author": "@KanakaPapa25",
+          "video_title": "Investors in Kokopo demand their money",
+          "video_id": "hIKukP8tg-Y",
+          "sentiment": "Negative",
+          "sentiment_score": -3.24,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -3.24,
+            "total_magnitude": 3.24,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "What a waste of taxpayers money.  Marape is the worst PM ever.",
+          "author": "@josephmkamano9053",
+          "video_title": "PM James Marape launched new AI CCTV in POM",
+          "video_id": "u_6He47DmjI",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "waste",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "worst",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Good work Neil... excellent. Are these school students or criminals? Lock them up and their school administrators and administration must be investigated too...if schools laws were adhered to by these boys nothing if this offenses could've been eventuated...",
+          "author": "@lablink4697",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Negative",
+          "sentiment_score": -2.88,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.88,
+            "total_magnitude": 2.88,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": true
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "excellent",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "This is what happens when we allow access to information from around the world via the Internet. Our kids abuse it. They think it doesn't matter. We should ban our children from having a mobile phone until they are mature enough. Maybe when they are 20 years old. I went to school between 81 and 90 and we never had access to the type of information these kids are exposed now. That is why we learnt good habits to build our good characters.",
+          "author": "@JonathanMidire",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Negative",
+          "sentiment_score": -2.88,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.88,
+            "total_magnitude": 2.88,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "olgeta man/meri go diposit ya IQ blo ol low stret, BSP sa mekim Biillion Kina profit na where tru ol sa givim ol man/meri bikpla interest na yupla laik bilivim ol kain line ya bai mekim money blo yupla, yupla lukim pes blo ol na yupla skelim wanem kain save ol gat where ol ken kisim moni blo yupla na mekim millions lo em, sapos ol save lo mekim millions than why ol laikim money blo yupla ken when ol yet ken usim money blo ol yet na mekim more money isi isi na stap normal na stap, inogat wanpla kain way stap lo mekim traipla money hariap so ol giaman kolectim moni blo yupla olgeta na ol lukim olsem em inap em ol pasim opis na diasappear, bai ol giaman kisim money na baim ol 1st line na taim ol lukim planti man kam diposit lo wanpla taim na diposit money resis go lo sampla million em ol pasim opis na disappear, ol usim wanpla kain tactic where ol usim sampla thousand blo ol man na wokim liklik payout lo kisim more man na taim hamaspla man diposit na balance em resis go lo million em ol disappear.",
+          "author": "@williemalala4653",
+          "video_title": "Investors in Kokopo demand their money",
+          "video_id": "hIKukP8tg-Y",
+          "sentiment": "Negative",
+          "sentiment_score": -1.96,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.56,
+            "negative_score": -2.52,
+            "total_magnitude": 3.08,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": true,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                }
+              ],
+              "negative": [
+                {
+                  "term": "giaman",
+                  "weight": -1.8,
+                  "count": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "As a son of Don Bosco, I recall one of the teachings, \"not with punches and blows but with love and kindness.\"\" \nBosconians are very disciplined and serve respect,they must have done something that triggered the violence. Ol paiawut nonap move nating.\n\nDBTS, Gabutu.",
+          "author": "@GrayJim",
+          "video_title": "Kokopo Police makes mass arrests on secondary students amidst school fights",
+          "video_id": "dJrd6iK0y0I",
+          "sentiment": "Negative",
+          "sentiment_score": -1.87,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -1.87,
+            "total_magnitude": 1.87,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Hahaha upla olgeta lon². Ol konim na stelim moni blo upla pinis. Turagu lo upla. YOU HAVE BEEN SCAMMED😂😂😂😂😂",
+          "author": "@iraphali2477",
+          "video_title": "Investors in Kokopo demand their money",
+          "video_id": "hIKukP8tg-Y",
+          "sentiment": "Negative",
+          "sentiment_score": -1.8,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.8,
+            "total_magnitude": 1.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "pinis",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 2.5684931506849313
+  },
+  {
+    "channel": "Kali D Official",
+    "url": "https://www.youtube.com/@KaliDofficial",
+    "summary": {
+      "total": 2,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 2
+      },
+      "percentages": {
+        "positive": 0.0,
+        "negative": 0.0,
+        "neutral": 100.0
+      },
+      "average_score": 0.0,
+      "top_positive": [],
+      "top_negative": []
+    },
+    "tok_pisin_percentage": 0
+  },
+  {
+    "channel": "O-Shen",
+    "url": "https://www.youtube.com/@OSHENOfficial",
+    "summary": {
+      "total": 1966,
+      "counts": {
+        "positive": 457,
+        "negative": 39,
+        "neutral": 1470
+      },
+      "percentages": {
+        "positive": 23.2,
+        "negative": 2.0,
+        "neutral": 74.8
+      },
+      "average_score": 0.32,
+      "top_positive": [
+        {
+          "text": "LOVE IT !! Im really blessed that youtube recommended me your track, and now i can listen every day, and i LOVE IT !! <3 <3 <3 LOVE this track😇👼",
+          "author": "@lahwf582",
+          "video_title": "O-SHEN - It&#39;s So Relievin&#39;",
+          "video_id": "g56J9qlKC8M",
+          "sentiment": "Positive",
+          "sentiment_score": 6.55,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 6.55,
+            "negative_score": 0.0,
+            "total_magnitude": 6.55,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 4,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 3
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Cheeee huuu 🌺🌿🤙🏼 just like a honey bee 🐝🍯living by frequency \nMuch love and respect to you ALWAYS ❤️🌺🌿🤙🏼💯 \nI appreciate all the good mele you keep putting out🎶 all filled with them good organic vibes. My playlist just keeps getting better and better every song you release 🎶 ❤️🔥❤️🔥❤️🎶\nMahalo nui",
+          "author": "@808FINEAPPLE",
+          "video_title": "O-SHEN - Catch a Vibe",
+          "video_id": "cUUDVtIEZ8w",
+          "sentiment": "Positive",
+          "sentiment_score": 4.8,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.8,
+            "negative_score": 0.0,
+            "total_magnitude": 4.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Been listening to 100 project all night.  ❤  Love all the songs. My favorites are Kalakala moa and Thank you from vol.1.💥 THANK YOU OSHEN FOR PUTTING YOUR TIME AND EFFORT TO CREATE AMAZING SONG. TRUPLA KUMUL. 🤍🖤💛❤",
+          "author": "@Helrazor675",
+          "video_title": "O-SHEN - I Love This Place",
+          "video_id": "xU71V5-ipg8",
+          "sentiment": "Positive",
+          "sentiment_score": 4.7,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.7,
+            "negative_score": 0.0,
+            "total_magnitude": 4.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "amazing",
+                  "weight": 1.8,
+                  "count": 1
+                },
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Love that powerful message ❤️❤️❤️..Yu trupla kumul yet yah resin mangi mi tok..superb music 🎵🎵 bro.. Cheers..👍👍👍❤️🎵🎵",
+          "author": "@grenttommy7960",
+          "video_title": "O-SHEN - Power of Love",
+          "video_id": "8f4k67ri0_w",
+          "sentiment": "Positive",
+          "sentiment_score": 4.7,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.7,
+            "negative_score": 0.0,
+            "total_magnitude": 4.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "superb",
+                  "weight": 1.8,
+                  "count": 1
+                },
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "The depth of meaning that are present in these lyrics is truly exceptional. It manages to express the beauty of authentic 'self-love' in a powerful way. Great job as usual my friend :)",
+          "author": "@etomedo888",
+          "video_title": "O-SHEN - I Stay Alone",
+          "video_id": "h6lAoHiqkrY",
+          "sentiment": "Positive",
+          "sentiment_score": 4.2,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.2,
+            "negative_score": 0.0,
+            "total_magnitude": 4.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "exceptional",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Bro you produced really nice songs. I love your songs,  I'm one of your big fan since when I was very young.  From Australia. Barata Oshen yu em powerful blood stret.",
+          "author": "@josephrava7824",
+          "video_title": "Thanks family!",
+          "video_id": "ijT9JjMoNfQ",
+          "sentiment": "Positive",
+          "sentiment_score": 4.16,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 4.16,
+            "negative_score": 0.0,
+            "total_magnitude": 4.16,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Really love amazing",
+          "author": "@JosephDavid-o5f",
+          "video_title": "O-SHEN - Out In The Garden",
+          "video_id": "k1JnuzXKF9U",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "amazing",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Great song really ❤ Can't stop listen to it.. Superb flow and voice",
+          "author": "@wojciechcembrzynski7612",
+          "video_title": "O-SHEN - Waikiki",
+          "video_id": "4ZilCfK8ww0",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "superb",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Love the song. Trupla kumul yu stp antap tumas🙏❤️🙏",
+          "author": "@HelenTarua",
+          "video_title": "O-SHEN - O Launganu",
+          "video_id": "WsbzyYGRYUc",
+          "sentiment": "Positive",
+          "sentiment_score": 3.77,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.77,
+            "negative_score": 0.0,
+            "total_magnitude": 3.77,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "The facial hair look really good on you. Love this one! We got hurricane Erin com'in in right now here on the OBX. Looks like it will be far enough out to give us a crazy swell....I'll be out for sure!",
+          "author": "@obxarms7685",
+          "video_title": "O-SHEN - “Goin’ Ridin’”",
+          "video_id": "hG7iDQnzzzU",
+          "sentiment": "Positive",
+          "sentiment_score": 3.74,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.74,
+            "negative_score": 0.0,
+            "total_magnitude": 3.74,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": [
+        {
+          "text": "Wonderful Pigin lyrics.  Thanks, Oshen, for portraying the Tokpisin lyrics in your inspirational songs🎵...it's not the first really! But PNGuinean's appreciate you. LOVE plenty,plenty! PAIA MAS LAIT YET ❤🔥🇵🇬",
+          "author": "@hamishalquin",
+          "video_title": "O-SHEN - Karai i No Isi",
+          "video_id": "IymHO-8ozGw",
+          "sentiment": "Negative",
+          "sentiment_score": -7.86,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -7.86,
+            "total_magnitude": 7.86,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "wonderful",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Lookin good dude.  I need to go back to the gym so I can almost look like that. lol.  That’s ok. For now I’m just chillin here with my wife and 3 kids. Good shout out from your fan in Dallas, Georgia, USA!!  🇺🇸 I have been listening to you since 2000!  My U.S. Army parents bought Iron youth and I have been hooked ever since bro.  Keep doing your thing man, whatever it is, no matter what. I don’t think you will ever realize how rare it is to be authentic to who you are to yourself, your fans and your community. that is so unique for a musician in the entertainment industry. Blessings from the USA. 🤙🏼",
+          "author": "@jaypenha5352",
+          "video_title": "O-SHEN - Thanks, gang!",
+          "video_id": "nqdVP4O9bWA",
+          "sentiment": "Negative",
+          "sentiment_score": -4.84,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -4.84,
+            "total_magnitude": 4.84,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 3,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "ok",
+                  "weight": 0.7,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Love the way you thinking about life ✨☀️ congrats on your success ✨☀️ here i am to support you 🙌🏼🙏🏼 wish you the best dear! My fave is “the rock” but no matter what you sing i love your voice ☺️✨",
+          "author": "@activemumlife_official",
+          "video_title": "O-SHEN - Positive Thinkin&#39;",
+          "video_id": "7pCF9xFhO0I",
+          "sentiment": "Negative",
+          "sentiment_score": -4.32,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -4.32,
+            "total_magnitude": 4.32,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 2
+                },
+                {
+                  "term": "congrats",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "No idea Elijah collabed on this art! Such a good braddah! Good company!",
+          "author": "@AnalogManPodcast",
+          "video_title": "O-SHEN x Son of O&#39;ahu x Poi-Poundah - More Than a Fire",
+          "video_id": "EFJ7jEBTBMs",
+          "sentiment": "Negative",
+          "sentiment_score": -3.74,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -3.74,
+            "total_magnitude": 3.74,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 3,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Y na yu no mekim cd ia.. em bai gutla stret.. cd would be excellent 😉",
+          "author": "@justme-pl1gi",
+          "video_title": "Thanks family!",
+          "video_id": "ijT9JjMoNfQ",
+          "sentiment": "Negative",
+          "sentiment_score": -3.12,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -3.12,
+            "total_magnitude": 3.12,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "excellent",
+                  "weight": 1.8,
+                  "count": 1
+                },
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "You never disappoint brother. Allah protect this treasure 🪙 of yours.keep preaching the good 🗞️📰 messages in your songs \nMuch 🎶 love from Vanuatu 🇻🇺",
+          "author": "@jimmyhungai7278",
+          "video_title": "O-SHEN - MUTUAL APPRECIATION",
+          "video_id": "M1jcvnbMWy0",
+          "sentiment": "Negative",
+          "sentiment_score": -2.88,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.88,
+            "total_magnitude": 2.88,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "no, thank you O Shen! your music is phenomenal and always puts me in a positive mood no matter the situation! Mahalo aloha! keep on killin it 💪🤙",
+          "author": "@wuerfelfmx916",
+          "video_title": "O-SHEN - Thanks, gang!",
+          "video_id": "nqdVP4O9bWA",
+          "sentiment": "Negative",
+          "sentiment_score": -2.81,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.81,
+            "total_magnitude": 2.81,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 3,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "phenomenal",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Keep jamming barata Oshen we want to hear more! Trupla mangi PNG ya! Sampla narapela ino sai apim name blo PNG osem you maski you stap long way tasol lewa blo you stap yet lo PNG ❤",
+          "author": "@johnlewismodudula8895",
+          "video_title": "O-SHEN - Paradise",
+          "video_id": "K4s3lQH8VUI",
+          "sentiment": "Negative",
+          "sentiment_score": -2.45,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.45,
+            "total_magnitude": 2.45,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Sucks reeeaall bad...nogut yupla diringim wara na drown 🤪",
+          "author": "@CyberCrusaders-m9k",
+          "video_title": "O-SHEN - Surfing Sucks",
+          "video_id": "lHk_UrehV2k",
+          "sentiment": "Negative",
+          "sentiment_score": -2.4,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -2.4,
+            "total_magnitude": 2.4,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "bad",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "nogut",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Nogat les man/meri. Wok mas go yet!❤😉🔥",
+          "author": "@Kathrina-q9l",
+          "video_title": "O-SHEN - Keep on Killin&#39; It",
+          "video_id": "XkgMF0-ugiA",
+          "sentiment": "Negative",
+          "sentiment_score": -2.4,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -2.4,
+            "total_magnitude": 2.4,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogat",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "les",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 7.477110885045778
+  },
+  {
+    "channel": "Sprigga Mek",
+    "url": "https://www.youtube.com/@spriggamekmusic",
+    "summary": {
+      "total": 537,
+      "counts": {
+        "positive": 67,
+        "negative": 10,
+        "neutral": 460
+      },
+      "percentages": {
+        "positive": 12.5,
+        "negative": 1.9,
+        "neutral": 85.7
+      },
+      "average_score": 0.16,
+      "top_positive": [
+        {
+          "text": "Hahshshs. Too good guys. Nice video.❤😂",
+          "author": "@KennyTseraha-xg6gu",
+          "video_title": "Sprigga Mek verse &#39;Mafioso&#39; Open Verse Challenge",
+          "video_id": "1HYFozC1yt0",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Too good !!! 💯🇵🇬",
+          "author": "@djdirtyfingerz",
+          "video_title": "Stagajah x Sprigga Mek_MUSIC MANGI/YU NAU Mash Up(Live) #spriggamekmusic",
+          "video_id": "kP8YDoe0eJk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.51,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.51,
+            "negative_score": 0.0,
+            "total_magnitude": 3.51,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 3,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Too good!!",
+          "author": "@gracenugi3831",
+          "video_title": "Sprigga Mek - Dodge The Bullet",
+          "video_id": "T0-F-wbJPGU",
+          "sentiment": "Positive",
+          "sentiment_score": 3.24,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.24,
+            "negative_score": 0.0,
+            "total_magnitude": 3.24,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Nice local beat is good but lyrics is better! Keep it up.",
+          "author": "@alfiemange167",
+          "video_title": "Sprigga Mek - HATWOK MAHN (Prod by Tattz) 2017",
+          "video_id": "GrfU0jCHAS0",
+          "sentiment": "Positive",
+          "sentiment_score": 2.8,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.8,
+            "negative_score": 0.0,
+            "total_magnitude": 2.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Sprigggamek...\nToo good...",
+          "author": "@WilfredKwalimu",
+          "video_title": "SPRIGGA MEK &#39;400 NAKA&#39; Live at PapaGraun Festival 2024",
+          "video_id": "GzHFG0Sp7rs",
+          "sentiment": "Positive",
+          "sentiment_score": 2.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.7,
+            "negative_score": 0.0,
+            "total_magnitude": 2.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Sprigga Mek Big Dog woof woof 🎉 too good",
+          "author": "@JasonWuri",
+          "video_title": "Sprigga Mek verse &#39;Mafioso&#39; Open Verse Challenge",
+          "video_id": "1HYFozC1yt0",
+          "sentiment": "Positive",
+          "sentiment_score": 2.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.7,
+            "negative_score": 0.0,
+            "total_magnitude": 2.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Needs another live performance and a music video.. Too good! 🎶👏🫡",
+          "author": "@peter-maihuaharricknen2216",
+          "video_title": "Metere Crew &amp; Sprigga Mek - KERERE live 2023",
+          "video_id": "c9TOmD19Y5U",
+          "sentiment": "Positive",
+          "sentiment_score": 2.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.7,
+            "negative_score": 0.0,
+            "total_magnitude": 2.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Gerehu Stap!!!......Fire🔥🔥🔥DawgSide💯.......trupla lyrics, Gerehood Life ya!!!!!Anthem mi tok!!!❤💪💪\nSisia 17065 represent🔥",
+          "author": "@gundor1314",
+          "video_title": "Sprigga Mek - GEREHOOD [Prod by Brenz](2022) #spriggamekmusic #gerehood #pnghiphop",
+          "video_id": "yBVkIlryzQQ",
+          "sentiment": "Positive",
+          "sentiment_score": 2.55,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.55,
+            "negative_score": 0.0,
+            "total_magnitude": 2.55,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 11,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "That's my bro!!!!!!!!! Trupla singsing - Thumbs Up barata....",
+          "author": "@SkyRoxz",
+          "video_title": "Sprigga Mek - HATWOK MAHN (Prod by Tattz) 2017",
+          "video_id": "GrfU0jCHAS0",
+          "sentiment": "Positive",
+          "sentiment_score": 2.55,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.55,
+            "negative_score": 0.0,
+            "total_magnitude": 2.55,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 9,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Maski yu trupla rapper blo PNG stret!",
+          "author": "@ambuge1",
+          "video_title": "Sprigga Mek - PASIN KANAKA  (Prod by Bata Jakes)",
+          "video_id": "m9-pcPA_ubE",
+          "sentiment": "Positive",
+          "sentiment_score": 2.5,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.5,
+            "negative_score": 0.0,
+            "total_magnitude": 2.5,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                },
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": [
+        {
+          "text": "Bata trupla lyrics...ino osem ol narapla repeatm ol same non sense",
+          "author": "@thegameplan675",
+          "video_title": "Sprigga Mek - HATWOK MAHN (Prod by Tattz) 2017",
+          "video_id": "GrfU0jCHAS0",
+          "sentiment": "Negative",
+          "sentiment_score": -2.04,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -2.04,
+            "total_magnitude": 2.04,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "FUCK, IT'S JUST THIS 9000 GIRLS, YOUR PROBABLY HAVING BAD LUCK! RYCO MCK! 😤! PORT MORESBY!",
+          "author": "@CjayBlood-i8h",
+          "video_title": "Sprigga Mek - 400 Naka",
+          "video_id": "IU26kAPTu2s",
+          "sentiment": "Negative",
+          "sentiment_score": -2.02,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -2.02,
+            "total_magnitude": 2.02,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 4,
+              "is_all_caps": true,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "bad",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "YOU BELIEVIM MI OH NOGAT? MCK! 🤬! THEM! COME! BENJI!",
+          "author": "@CjayBlood-i8h",
+          "video_title": "Sprigga Mek - 400 Naka",
+          "video_id": "IU26kAPTu2s",
+          "sentiment": "Negative",
+          "sentiment_score": -1.73,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.73,
+            "total_magnitude": 1.73,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 5,
+              "is_all_caps": true,
+              "has_question": true
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogat",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Bata not too much into rap but you kam good. Ori!! Your fan from Lae City",
+          "author": "@Walbo09",
+          "video_title": "Sprigga Mek - Take It Or Leave It (Prod by Dirty Fingerz) [2018]",
+          "video_id": "yMwA1uLPXVQ",
+          "sentiment": "Negative",
+          "sentiment_score": -1.73,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -1.73,
+            "total_magnitude": 1.73,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "I feel that this is for me...I started out as a freelance graphics designer doing it out of passion and hobby and now decided to make it a full time job doing freelance in the streets of Pom City - alot of people told me boy thats some stupid shit, especially when you can't make more money... In PNG you can't be a graphics designer and call it a job when they expected you to go to school.. art is not a career but a pastime in PNG mindset.. its unfortunate for us freelance media guyz but we're doing out of passion so fxk em. I'm doing it for the love and not for the money...",
+          "author": "@gaga1712",
+          "video_title": "Sprigga Mek - Retribution (Dreams &amp; Nightmares Intro Instrumental)",
+          "video_id": "96QA2-8wh84",
+          "sentiment": "Negative",
+          "sentiment_score": -1.44,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -1.44,
+            "total_magnitude": 1.44,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Mck yu em no hatwok mahn too.pamuks.  honest brandy is nice.mck.",
+          "author": "@DanikaIla-pw2us",
+          "video_title": "Sprigga Mek - HATWOK MAHN (Prod by Tattz) 2017",
+          "video_id": "GrfU0jCHAS0",
+          "sentiment": "Negative",
+          "sentiment_score": -1.44,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -1.44,
+            "total_magnitude": 1.44,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "MAHN EM PAPUA BUT EM MAHN JAPANESE NA SCOTTISH STRET! HIGHLANDERS 🇵🇬! NA EM AMERICAN TOO! PAPUANS 🇵🇬! ❤️😭! CHESNA KALUPAI 🟨! CHESNA YOU NO SAVE MCK LOVIM YOU?! NSA 🇺🇸! 🤣💥💥💥💥💥💥 I KNOW THAT! CLUDE 🟨!",
+          "author": "@robertmckinnau7306",
+          "video_title": "Sprigga Mek - ISA PAISA  (Prod by Bata Jakes)",
+          "video_id": "PBKqyjdhukE",
+          "sentiment": "Negative",
+          "sentiment_score": -1.38,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -1.38,
+            "total_magnitude": 1.38,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 10,
+              "is_all_caps": true,
+              "has_question": true
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Desize sprigga wrong combination 🔥❤",
+          "author": "@LeoWini-n3h",
+          "video_title": "Sprigga Mek verse &#39;Mafioso&#39; Open Verse Challenge",
+          "video_id": "1HYFozC1yt0",
+          "sentiment": "Negative",
+          "sentiment_score": -1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.2,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "wrong",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Hatwok Man, nogat man geligeli..",
+          "author": "@BobLapeAndo",
+          "video_title": "Sprigga Mek - HATWOK MAHN (Prod by Tattz) 2017",
+          "video_id": "GrfU0jCHAS0",
+          "sentiment": "Negative",
+          "sentiment_score": -1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.2,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogat",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "The real deal. Even performing live, me ting me harim long radio tasol nogat. Keep it up.",
+          "author": "@Fainkom",
+          "video_title": "Sprigga Mek &amp; Metere Crew - KERERE  (Prod by Robby T)",
+          "video_id": "86S36yloAqQ",
+          "sentiment": "Negative",
+          "sentiment_score": -1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -1.2,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogat",
+                  "weight": -1.2,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 5.027932960893855
+  },
+  {
+    "channel": "L Saiikay",
+    "url": "https://www.youtube.com/@lsaiikay",
+    "summary": {
+      "total": 2806,
+      "counts": {
+        "positive": 457,
+        "negative": 67,
+        "neutral": 2282
+      },
+      "percentages": {
+        "positive": 16.3,
+        "negative": 2.4,
+        "neutral": 81.3
+      },
+      "average_score": 0.2,
+      "top_positive": [
+        {
+          "text": "Nathan Nakikus too good. love this guy's voice😩😩😍😍🥲🥲 Wanbel lo nek blo Nathan Nakikus chol. too good boys",
+          "author": "@EliaROBERT-z1g",
+          "video_title": "Come Back Official Video",
+          "video_id": "pS4qm6O4v2c",
+          "sentiment": "Positive",
+          "sentiment_score": 6.6,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 6.6,
+            "negative_score": 0.0,
+            "total_magnitude": 6.6,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 2
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Too good!! Great collaboration! 😍",
+          "author": "@kayvat3737",
+          "video_title": "TORTURE-SaiiKay/OFour/DFingers",
+          "video_id": "Quv-gTmfqhk",
+          "sentiment": "Positive",
+          "sentiment_score": 5.07,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 5.07,
+            "negative_score": 0.0,
+            "total_magnitude": 5.07,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 3,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Love all saii kays song....just too good.",
+          "author": "@LORETHAGUMBIS-q1h",
+          "video_title": "Ace Darling ",
+          "video_id": "e-OQ1VDb5sk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "love",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Best combo, producer too good. Well done❤",
+          "author": "@nakulakasai7246",
+          "video_title": "TORTURE-SaiiKay/OFour/DFingers",
+          "video_id": "Quv-gTmfqhk",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "well done",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Nathan Nakikus 🔥😍❤️Just too good..good come back.! 👏👍👌💯",
+          "author": "@julienathaniel1029",
+          "video_title": "Come Back Official Video",
+          "video_id": "pS4qm6O4v2c",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Fantastic video, really appreciate your effort!",
+          "author": "@AbdulmalikLawal-y6q",
+          "video_title": "COME BACK (Studio Box Ep)",
+          "video_id": "zT4uqa_hsKM",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "fantastic",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Fantastic video, really appreciate your effort!",
+          "author": "@DalviMahesh-z5d",
+          "video_title": "COME BACK (Studio Box Ep)",
+          "video_id": "zT4uqa_hsKM",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "fantastic",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Fantastic video, really appreciate your effort!",
+          "author": "@RASELDAWIN",
+          "video_title": "COME BACK (Studio Box Ep)",
+          "video_id": "zT4uqa_hsKM",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "fantastic",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Fantastic video, really appreciate your effort!",
+          "author": "@LaluLalurajuwar",
+          "video_title": "COME BACK (Studio Box Ep)",
+          "video_id": "zT4uqa_hsKM",
+          "sentiment": "Positive",
+          "sentiment_score": 3.9,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.9,
+            "negative_score": 0.0,
+            "total_magnitude": 3.9,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "appreciate",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "fantastic",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Nice and outstanding, quality wan stret vavi",
+          "author": "@lukemarweng319",
+          "video_title": "Barike Love Official Video",
+          "video_id": "8ebMLAnJUYA",
+          "sentiment": "Positive",
+          "sentiment_score": 3.8,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.8,
+            "negative_score": 0.0,
+            "total_magnitude": 3.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "nice",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "outstanding",
+                  "weight": 1.8,
+                  "count": 1
+                },
+                {
+                  "term": "stret",
+                  "weight": 0.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": [
+        {
+          "text": "Goose bum pinis na yupla save save song smell beer pinis....hariap! hariap! hantap! hantap!",
+          "author": "@johnboscoturalom4420",
+          "video_title": "Feelings Overload - Saii Kay Feat. Jarahn x TohNunu x BeeKay (Prod by Jarahn)",
+          "video_id": "GSpQAkUH80o",
+          "sentiment": "Negative",
+          "sentiment_score": -5.04,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -5.04,
+            "total_magnitude": 5.04,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 4,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "pinis",
+                  "weight": -1.8,
+                  "count": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "Watching this clip repeatedly and it never gets old. Bloody too good! Great combo",
+          "author": "@ChesterSelibu",
+          "video_title": "Come Back Official Video",
+          "video_id": "pS4qm6O4v2c",
+          "sentiment": "Negative",
+          "sentiment_score": -4.68,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -4.68,
+            "total_magnitude": 4.68,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 1,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Tremz sa makim na me sa ting B-rad no die yet❤❤❤\nToo good brother👑🙏",
+          "author": "@BeldenExson-eb8no",
+          "video_title": "Minigulai Band - Malolo",
+          "video_id": "RH_vLWugu_c",
+          "sentiment": "Negative",
+          "sentiment_score": -3.24,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": -0.0,
+            "negative_score": -3.24,
+            "total_magnitude": 3.24,
+            "context_modifiers": {
+              "has_negation": true,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "too good",
+                  "weight": 1.5,
+                  "count": 1
+                },
+                {
+                  "term": "good",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "FitWheels Official Video🎥",
+          "video_id": "UDkY1SbXMrk",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "Come Back Official Video",
+          "video_id": "pS4qm6O4v2c",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "Toktok Maski-Saii Kay",
+          "video_id": "bQwngGwUx90",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "RISKY (2025)-Studio Box Ep",
+          "video_id": "upfBD7OnViI",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "Feelings Overload - Saii Kay Feat. Jarahn x TohNunu x BeeKay (Prod by Jarahn)",
+          "video_id": "GSpQAkUH80o",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "nogat ting2 lo drnk too tasol song yah tsl mi tempted pinis😂✌️",
+          "author": "@RubbieWarpin-vg8lq",
+          "video_title": "FIT WHEELS",
+          "video_id": "hORg00tO3b4",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "nogat",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "pinis",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        {
+          "text": "I honestly hope that your entire musical career is an utter failure. With your rubbish repetitive meri music.  One of the most overrated and mindless, useless artists in the country.  Absolute embarrassment to Papua New Guinea.  Couldn't dislike you more Saii Kay.",
+          "author": "@PNGIslandVIBE",
+          "video_title": "Barike Love Official Video",
+          "video_id": "8ebMLAnJUYA",
+          "sentiment": "Negative",
+          "sentiment_score": -3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 0.0,
+            "negative_score": -3.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [],
+              "negative": [
+                {
+                  "term": "useless",
+                  "weight": -1.2,
+                  "count": 1
+                },
+                {
+                  "term": "rubbish",
+                  "weight": -1.8,
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tok_pisin_percentage": 3.278688524590164
+  },
+  {
+    "channel": "Steamships",
+    "url": "https://www.youtube.com/@steamshipstradingcompanylt8100",
+    "summary": {
+      "total": 31,
+      "counts": {
+        "positive": 13,
+        "negative": 0,
+        "neutral": 18
+      },
+      "percentages": {
+        "positive": 41.9,
+        "negative": 0.0,
+        "neutral": 58.1
+      },
+      "average_score": 0.7,
+      "top_positive": [
+        {
+          "text": "Great to be part of the journey, kudos CA team for such an amazing job. This history will go a long way, for many generations to come. \n\n#steamies 🎉",
+          "author": "@wariluluannatola6202",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 3.0,
+          "confidence": "high",
+          "analysis_details": {
+            "positive_score": 3.0,
+            "negative_score": 0.0,
+            "total_magnitude": 3.0,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                },
+                {
+                  "term": "amazing",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Steamships. What a great company with great people.🎉",
+          "author": "@darrenmirisa",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 2.4,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 2.4,
+            "negative_score": 0.0,
+            "total_magnitude": 2.4,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 2
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Thank you Captain Algernon Fitch , and of Couse thank you producers of this inspirational film. After 50 years and I have come to really know the founding father of this great company. In TOK PISIN  I will say \"STEAMSHIP TRADING COMPANY EM I GARDEN BLONG ME.\"  Proud cadet assert FROM STEAMSHIPS MARINE CADETS FOR 2013. There We Go ! We Don't Just Do Business In PNG , It IS Our Home! Merry Christmas and a prosperous year 2026 for us ALL.🎄🎆🎇🎉🎊",
+          "author": "@ulrichrabui",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.87,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.87,
+            "negative_score": 0.0,
+            "total_magnitude": 1.87,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 2,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Way to go Steamies. I shed tears of joy. Thank you for sharing this wonderful story and history with the world",
+          "author": "@ronaldkavanamur3589",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.8,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.8,
+            "negative_score": 0.0,
+            "total_magnitude": 1.8,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "wonderful",
+                  "weight": 1.8,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "💯🇵🇬trupla",
+          "author": "@PNGUncharted",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.7,
+            "negative_score": 0.0,
+            "total_magnitude": 1.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Thank you for the Fitch Family for being with us, many have come and gone but yu pla m pikini blo Papa na trupla Kumul🎉❤🇵🇬",
+          "author": "@Spraggyanz",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.7,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.7,
+            "negative_score": 0.0,
+            "total_magnitude": 1.7,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "trupla",
+                  "weight": 1.7,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "How AI made this video very interesting",
+          "author": "@parkopmoka1299",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.56,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.56,
+            "negative_score": 0.0,
+            "total_magnitude": 1.56,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "interesting",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "A truly Papua New Guinean company, has been part of Papua New Guinea's beginning and still going strong. Congratulations 👏",
+          "author": "@IlaiSekry",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.56,
+          "confidence": "medium",
+          "analysis_details": {
+            "positive_score": 1.56,
+            "negative_score": 0.0,
+            "total_magnitude": 1.56,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": true,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": true,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "congratulations",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Great Company ❤🎉",
+          "author": "@KeithKalama",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 1.2,
+            "negative_score": 0.0,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "great",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        },
+        {
+          "text": "Congratulations steamship,",
+          "author": "@MitiDaiyan",
+          "video_title": "Steamships and PNG, Our Story",
+          "video_id": "jAJk7oYGYGQ",
+          "sentiment": "Positive",
+          "sentiment_score": 1.2,
+          "confidence": "low",
+          "analysis_details": {
+            "positive_score": 1.2,
+            "negative_score": 0.0,
+            "total_magnitude": 1.2,
+            "context_modifiers": {
+              "has_negation": false,
+              "has_amplifier": false,
+              "has_diminisher": false,
+              "has_brand": false,
+              "has_location": false,
+              "exclamation_count": 0,
+              "is_all_caps": false,
+              "has_question": false
+            },
+            "matched_terms": {
+              "positive": [
+                {
+                  "term": "congratulations",
+                  "weight": 1.2,
+                  "count": 1
+                }
+              ],
+              "negative": []
+            }
+          }
+        }
+      ],
+      "top_negative": []
+    },
+    "tok_pisin_percentage": 6.451612903225806
+  }
+]
