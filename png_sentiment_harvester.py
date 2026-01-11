@@ -1,141 +1,156 @@
-#!/usr/bin/env python3
 """
-PNG Sentiment Harvester - Python Implementation
-Advanced sentiment analysis for Papua New Guinean content
-Handles Tok Pisin, PNG English, and cultural nuances
+PNG Sentiment Harvester - FIXED VERSION with Contextual Negation
+Analyzes sentiment in PNG comments with Tok Pisin support and proper negation handling
 """
 
 import re
 from typing import Dict, List, Tuple
+from collections import defaultdict
+
 
 class PNGSentimentLexicon:
-    """PNG-specific sentiment lexicon with weighted terms"""
+    """Lexicon of PNG-specific sentiment terms"""
     
-    # ENGLISH - POSITIVE (weighted by intensity)
-    POSITIVE_STRONG = {
-        'weight': 1.8,
-        'terms': ['excellent', 'outstanding', 'brilliant', 'perfect', 'amazing', 'fantastic', 
-                 'incredible', 'wonderful', 'superb', 'exceptional', 'phenomenal', 'magnificent']
-    }
+    # Negation words
+    NEGATION_WORDS = {'not', 'no', 'never', 'none', 'nobody', 'nothing', 'neither', 'nowhere', 'hardly', 'barely',
+                      'ino', 'nogat', 'nomore'}
     
-    POSITIVE_MODERATE = {
-        'weight': 1.2,
-        'terms': ['good', 'great', 'nice', 'love', 'appreciate', 'enjoyed', 'liked', 'helpful',
-                 'informative', 'interesting', 'well done', 'congrats', 'congratulations']
-    }
+    # Amplifiers
+    AMPLIFIERS = {'very', 'really', 'extremely', 'absolutely', 'incredibly', 'totally', 'completely',
+                  'tumas', 'tru', 'stret', 'much', 'so', 'too'}
     
-    POSITIVE_LIGHT = {
-        'weight': 0.7,
-        'terms': ['okay', 'ok', 'alright', 'fine', 'decent', 'fair', 'satisfactory']
-    }
+    # Diminishers
+    DIMINISHERS = {'slightly', 'somewhat', 'kind of', 'sort of', 'a bit', 'a little',
+                   'liklik', 'smol', 'small'}
     
-    # ENGLISH - NEGATIVE (weighted by intensity)
-    NEGATIVE_STRONG = {
-        'weight': -1.8,
-        'terms': ['terrible', 'horrible', 'awful', 'disgusting', 'pathetic', 'atrocious',
-                 'appalling', 'dreadful', 'hate', 'worst', 'rubbish', 'trash', 'garbage']
-    }
+    # Brand terms
+    BRAND_TERMS = ['pawa tv', 'pawa', 'pawatv']
     
-    NEGATIVE_MODERATE = {
-        'weight': -1.2,
-        'terms': ['bad', 'poor', 'disappointing', 'weak', 'lacking', 'inadequate',
-                 'boring', 'dull', 'useless', 'waste', 'wrong', 'misleading', 'biased']
-    }
+    # PNG locations
+    PNG_LOCATIONS = ['png', 'papua new guinea', 'port moresby', 'lae', 'madang', 'goroka', 
+                     'mount hagen', 'rabaul', 'wewak', 'highlands', 'momase', 'niugini']
     
-    NEGATIVE_LIGHT = {
-        'weight': -0.7,
-        'terms': ['meh', 'mediocre', 'average', 'could be better', 'not great']
-    }
+    # English positive terms
+    ENGLISH_POSITIVE_STRONG = ['excellent', 'outstanding', 'brilliant', 'fantastic', 'wonderful', 
+                               'amazing', 'superb', 'perfect', 'incredible', 'phenomenal',
+                               'awesome', 'extraordinary', 'exceptional', 'magnificent']
     
-    # TOK PISIN - POSITIVE
-    TOKPISIN_POSITIVE_STRONG = {
-        'weight': 1.7,
-        'terms': ['trupla', 'gut tumas', 'nambawan', 'wanpela nambawan', 'bikpela gutpela',
-                 'planti gutpela', 'tru ya', 'stret tumas']
-    }
+    ENGLISH_POSITIVE_MODERATE = ['good', 'great', 'nice', 'love', 'like', 'enjoy', 'appreciate',
+                                 'happy', 'glad', 'pleased', 'thanks', 'thank', 'helpful',
+                                 'useful', 'informative', 'interesting', 'beautiful', 'well done']
     
-    TOKPISIN_POSITIVE_MODERATE = {
-        'weight': 1.2,
-        'terms': ['em nau', 'naispla', 'naispla wok', 'gutpela', 'gutpela tumas', 'orait tumas',
-                 'pawa tumas', 'strong tumas', 'stretpela']
-    }
+    ENGLISH_POSITIVE_LIGHT = ['okay', 'ok', 'alright', 'fine', 'decent', 'fair', 'acceptable']
     
-    TOKPISIN_POSITIVE_LIGHT = {
-        'weight': 0.8,
-        'terms': ['orait', 'em tasol', 'stret', 'ino nogut', 'gutpela liklik']
-    }
+    # English negative terms
+    ENGLISH_NEGATIVE_STRONG = ['terrible', 'horrible', 'awful', 'disgusting', 'pathetic', 'atrocious',
+                               'abysmal', 'dreadful', 'appalling', 'outrageous', 'unacceptable',
+                               'worthless', 'useless', 'garbage', 'trash', 'crap']
     
-    # TOK PISIN - NEGATIVE
-    TOKPISIN_NEGATIVE_STRONG = {
-        'weight': -1.8,
-        'terms': ['giaman', 'lus lulu', 'nogut tumas', 'pinis', 'taim bilong yu pinis',
-                 'wanpla samting nating', 'rubbis tumas', 'kranki tumas']
-    }
+    ENGLISH_NEGATIVE_MODERATE = ['bad', 'poor', 'disappointing', 'weak', 'inadequate', 'inferior',
+                                 'subpar', 'lacking', 'dislike', 'hate', 'annoying', 'frustrating',
+                                 'concerning', 'worried', 'sad', 'upset', 'angry']
     
-    TOKPISIN_NEGATIVE_MODERATE = {
-        'weight': -1.2,
-        'terms': ['nogut', 'nogat', 'ino stret', 'ino gutpela', 'les', 'wanpela rubbis',
-                 'pait nating', 'rong', 'bagarap']
-    }
+    ENGLISH_NEGATIVE_LIGHT = ['meh', 'mediocre', 'average', 'so-so', 'nothing special', 'boring']
     
-    TOKPISIN_NEGATIVE_LIGHT = {
-        'weight': -0.7,
-        'terms': ['ino stap gut', 'liklik problem', 'ino strong']
-    }
+    # Tok Pisin positive terms
+    TOK_PISIN_POSITIVE_STRONG = ['trupla', 'gut tumas', 'nambawan', 'tru ya', 'stret tumas',
+                                 'planti gut', 'tupela gut']
     
-    # PNG ENGLISH VARIATIONS
-    PNG_ENGLISH_POSITIVE = {
-        'weight': 1.5,
-        'terms': ['proper good', 'well well', 'number one', 'first class', 'top shelf',
-                 'straight up good', 'really really good', 'too good']
-    }
+    TOK_PISIN_POSITIVE_MODERATE = ['em nau', 'naispla', 'gutpela', 'orait tumas', 'ino bagarap',
+                                   'em stret', 'em gut', 'mi laikim', 'pawa', 'strong']
     
-    PNG_ENGLISH_NEGATIVE = {
-        'weight': -1.4,
-        'terms': ['proper bad', 'straight up bad', 'no good at all', 'nothing special']
-    }
+    TOK_PISIN_POSITIVE_LIGHT = ['orait', 'em tasol', 'stret', 'olgeta gut']
     
-    # CONTEXT MODIFIERS
-    NEGATION_WORDS = ['not', 'no', 'never', 'nobody', 'nothing', 'neither', 'nowhere', 'none', 'ino']
-    AMPLIFIERS = ['very', 'really', 'extremely', 'totally', 'absolutely', 'completely', 'tumas', 'strong']
-    DIMINISHERS = ['somewhat', 'slightly', 'barely', 'hardly', 'liklik', 'smol']
+    # Tok Pisin negative terms
+    TOK_PISIN_NEGATIVE_STRONG = ['giaman', 'lus lulu', 'nogut tumas', 'pinis', 'bagarap tumas',
+                                 'rabis tumas', 'ino gut tru']
     
-    # BRAND & LOCATION TERMS
-    BRAND_TERMS = ['pawa', 'pawa tv', 'watchpawatv', 'host', 'presenter', 'interview', 'show', 'program']
-    PNG_LOCATIONS = ['png', 'papua', 'moresby', 'lae', 'madang', 'goroka', 'mt hagen', 'rabaul',
-                    'wewak', 'kimbe', 'kokopo', 'arawa']
+    TOK_PISIN_NEGATIVE_MODERATE = ['nogut', 'ino stret', 'ino gutpela', 'bagarap', 'rabis',
+                                   'mi no laikim', 'ino orait', 'wari']
+    
+    TOK_PISIN_NEGATIVE_LIGHT = ['ino stap gut', 'liklik problem', 'ino nambawan']
+    
+    # PNG English (unique expressions)
+    PNG_ENGLISH_POSITIVE = ['proper good', 'well well', 'number one', 'straight up good',
+                            'too much good', 'very very good']
+    
+    PNG_ENGLISH_NEGATIVE = ['proper bad', 'straight up bad', 'no good at all', 'very very bad',
+                            'too much bad']
 
 
 class PNGSentimentHarvester:
     """
-    Advanced sentiment analyzer for PNG content
-    Implements weighted scoring with cultural and linguistic awareness
+    PNG-aware sentiment analyzer with contextual negation handling
     """
     
     def __init__(self):
         self.lexicon = PNGSentimentLexicon()
-        self._compile_lexicon_categories()
+        self.categories = self._build_categories()
     
-    def _compile_lexicon_categories(self):
-        """Pre-compile all lexicon categories for faster lookup"""
-        self.categories = {}
-        for attr_name in dir(self.lexicon):
-            if attr_name.isupper() and not attr_name.startswith('_'):
-                attr = getattr(self.lexicon, attr_name)
-                if isinstance(attr, dict) and 'weight' in attr and 'terms' in attr:
-                    self.categories[attr_name] = attr
+    def _build_categories(self) -> Dict:
+        """Build weighted categories from lexicon"""
+        return {
+            'english_positive_strong': {
+                'weight': 1.8,
+                'terms': self.lexicon.ENGLISH_POSITIVE_STRONG
+            },
+            'english_positive_moderate': {
+                'weight': 1.2,
+                'terms': self.lexicon.ENGLISH_POSITIVE_MODERATE
+            },
+            'english_positive_light': {
+                'weight': 0.7,
+                'terms': self.lexicon.ENGLISH_POSITIVE_LIGHT
+            },
+            'english_negative_strong': {
+                'weight': -1.8,
+                'terms': self.lexicon.ENGLISH_NEGATIVE_STRONG
+            },
+            'english_negative_moderate': {
+                'weight': -1.2,
+                'terms': self.lexicon.ENGLISH_NEGATIVE_MODERATE
+            },
+            'english_negative_light': {
+                'weight': -0.7,
+                'terms': self.lexicon.ENGLISH_NEGATIVE_LIGHT
+            },
+            'tok_pisin_positive_strong': {
+                'weight': 1.7,
+                'terms': self.lexicon.TOK_PISIN_POSITIVE_STRONG
+            },
+            'tok_pisin_positive_moderate': {
+                'weight': 1.2,
+                'terms': self.lexicon.TOK_PISIN_POSITIVE_MODERATE
+            },
+            'tok_pisin_positive_light': {
+                'weight': 0.8,
+                'terms': self.lexicon.TOK_PISIN_POSITIVE_LIGHT
+            },
+            'tok_pisin_negative_strong': {
+                'weight': -1.8,
+                'terms': self.lexicon.TOK_PISIN_NEGATIVE_STRONG
+            },
+            'tok_pisin_negative_moderate': {
+                'weight': -1.2,
+                'terms': self.lexicon.TOK_PISIN_NEGATIVE_MODERATE
+            },
+            'tok_pisin_negative_light': {
+                'weight': -0.7,
+                'terms': self.lexicon.TOK_PISIN_NEGATIVE_LIGHT
+            },
+            'png_english_positive': {
+                'weight': 1.5,
+                'terms': self.lexicon.PNG_ENGLISH_POSITIVE
+            },
+            'png_english_negative': {
+                'weight': -1.4,
+                'terms': self.lexicon.PNG_ENGLISH_NEGATIVE
+            }
+        }
     
     def analyze_sentiment(self, text: str) -> Dict:
-        """
-        Main sentiment analysis function
-        
-        Args:
-            text: Comment text to analyze
-            
-        Returns:
-            Dictionary with sentiment, score, confidence, and details
-        """
-        if not text or len(text.strip()) < 3:
+        """Analyze sentiment of text with PNG context"""
+        if not text or not text.strip():
             return {
                 'sentiment': 'Neutral',
                 'score': 0.0,
@@ -149,53 +164,47 @@ class PNGSentimentHarvester:
         # Detect context modifiers
         context_modifiers = self._detect_context_modifiers(text, text_lower, tokens)
         
-        # Score sentiment terms
-        sentiment_scores = self._score_sentiment_terms(text_lower, tokens, context_modifiers)
-        positive_score = sentiment_scores['positive']
-        negative_score = sentiment_scores['negative']
+        # Score sentiment terms WITH POSITIONAL INFORMATION
+        sentiment_scores = self._score_sentiment_terms_with_positions(text_lower, tokens, context_modifiers)
         
-        # Detect sentiment clusters
-        cluster_bonus = self._detect_sentiment_clusters(text_lower, context_modifiers)
-        positive_score += cluster_bonus['positive']
-        negative_score += cluster_bonus['negative']
-        
-        # Apply context modifiers
-        modified_scores = self._apply_context_modifiers(
-            positive_score,
-            negative_score,
+        # Apply contextual negation (FIXED VERSION)
+        final_scores = self._apply_contextual_negation(
+            tokens, 
+            sentiment_scores['positive_terms'],
+            sentiment_scores['negative_terms'],
             context_modifiers
         )
         
-        # Calculate final sentiment
-        net_score = modified_scores['positive'] + modified_scores['negative']
-        total_magnitude = abs(modified_scores['positive']) + abs(modified_scores['negative'])
+        positive_score = final_scores['positive']
+        negative_score = final_scores['negative']
+        
+        # Detect sentiment clusters
+        cluster_bonuses = self._detect_sentiment_clusters(text_lower, context_modifiers)
+        positive_score += cluster_bonuses['positive']
+        negative_score += cluster_bonuses['negative']
+        
+        # Calculate final score
+        total_score = positive_score + negative_score
+        total_magnitude = abs(positive_score) + abs(negative_score)
         
         # Determine sentiment category
-        if net_score > 0.5:
-            sentiment = 'Positive'
-        elif net_score < -0.5:
-            sentiment = 'Negative'
-        else:
+        if abs(total_score) < 0.5:
             sentiment = 'Neutral'
-        
-        # Determine confidence
-        confidence = 'low'
-        if total_magnitude >= 3.0 and not context_modifiers['has_question']:
-            confidence = 'high'
-        elif total_magnitude >= 1.5:
-            confidence = 'medium'
-        
-        # Reduce confidence for ambiguous contexts
-        if context_modifiers['is_all_caps'] or context_modifiers['has_question']:
-            confidence = 'medium' if confidence == 'high' else 'low'
+            confidence = 'low' if total_magnitude < 1.0 else 'medium'
+        elif total_score > 0:
+            sentiment = 'Positive'
+            confidence = 'high' if total_score > 2.0 else 'medium'
+        else:
+            sentiment = 'Negative'
+            confidence = 'high' if total_score < -2.0 else 'medium'
         
         return {
             'sentiment': sentiment,
-            'score': round(net_score, 2),
+            'score': round(total_score, 2),
             'confidence': confidence,
             'details': {
-                'positive_score': round(modified_scores['positive'], 2),
-                'negative_score': round(modified_scores['negative'], 2),
+                'positive_score': round(positive_score, 2),
+                'negative_score': round(negative_score, 2),
                 'total_magnitude': round(total_magnitude, 2),
                 'context_modifiers': context_modifiers,
                 'matched_terms': sentiment_scores['matched_terms']
@@ -220,10 +229,11 @@ class PNGSentimentHarvester:
             'has_question': '?' in text
         }
     
-    def _score_sentiment_terms(self, text: str, tokens: List[str], context_modifiers: Dict) -> Dict:
-        """Score all sentiment terms found in text"""
-        positive_score = 0.0
-        negative_score = 0.0
+    def _score_sentiment_terms_with_positions(self, text: str, tokens: List[str], 
+                                             context_modifiers: Dict) -> Dict:
+        """Score all sentiment terms and track their positions - FIXED VERSION"""
+        positive_terms = []
+        negative_terms = []
         matched_terms = {'positive': [], 'negative': []}
         
         for category_name, category_data in self.categories.items():
@@ -231,37 +241,147 @@ class PNGSentimentHarvester:
             terms = category_data['terms']
             
             for term in terms:
-                # Use word boundary for single words, substring for phrases
+                # Find all matches and their positions
                 if ' ' in term:
+                    # Multi-word phrase
                     pattern = re.compile(re.escape(term), re.IGNORECASE)
                 else:
+                    # Single word with boundaries
                     pattern = re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE)
                 
-                matches = pattern.findall(text)
-                if matches:
-                    match_count = len(matches)
-                    score = weight * match_count
+                for match in pattern.finditer(text):
+                    # Calculate approximate token position
+                    start_pos = match.start()
+                    text_before = text[:start_pos]
+                    token_position = len(text_before.split())
+                    
+                    term_data = {
+                        'term': term,
+                        'weight': weight,
+                        'position': token_position,
+                        'match_text': match.group()
+                    }
                     
                     if weight > 0:
-                        positive_score += score
-                        matched_terms['positive'].append({
-                            'term': term,
-                            'weight': weight,
-                            'count': match_count
-                        })
+                        positive_terms.append(term_data)
                     else:
-                        negative_score += score
-                        matched_terms['negative'].append({
-                            'term': term,
-                            'weight': weight,
-                            'count': match_count
-                        })
+                        negative_terms.append(term_data)
+        
+        # Aggregate for matched_terms summary
+        term_counts = defaultdict(lambda: {'weight': 0, 'count': 0})
+        for term_data in positive_terms + negative_terms:
+            key = term_data['term']
+            term_counts[key]['weight'] = term_data['weight']
+            term_counts[key]['count'] += 1
+        
+        for term, data in term_counts.items():
+            if data['weight'] > 0:
+                matched_terms['positive'].append({
+                    'term': term,
+                    'weight': data['weight'],
+                    'count': data['count']
+                })
+            else:
+                matched_terms['negative'].append({
+                    'term': term,
+                    'weight': data['weight'],
+                    'count': data['count']
+                })
         
         return {
-            'positive': positive_score,
-            'negative': negative_score,
+            'positive_terms': positive_terms,
+            'negative_terms': negative_terms,
             'matched_terms': matched_terms
         }
+    
+    def _apply_contextual_negation(self, tokens: List[str], positive_terms: List[Dict],
+                                   negative_terms: List[Dict], modifiers: Dict) -> Dict:
+        """
+        Apply contextual negation - FIXED VERSION
+        Only negates terms within 2 words AFTER a negation word
+        """
+        # Find negation positions
+        negation_positions = []
+        for i, token in enumerate(tokens):
+            if token in self.lexicon.NEGATION_WORDS:
+                negation_positions.append(i)
+        
+        positive_score = 0.0
+        negative_score = 0.0
+        
+        # Process positive terms
+        for term_data in positive_terms:
+            weight = term_data['weight']
+            position = term_data['position']
+            
+            # Check if within 2 words AFTER any negation (negation comes before the term)
+            is_negated = any(0 < (position - neg_pos) <= 2 for neg_pos in negation_positions)
+            
+            if is_negated:
+                # Flip to negative and amplify
+                negative_score += weight * -1.2
+            else:
+                # Keep positive
+                positive_score += weight
+        
+        # Process negative terms
+        for term_data in negative_terms:
+            weight = term_data['weight']  # Already negative
+            position = term_data['position']
+            
+            # Check if within 2 words AFTER any negation
+            is_negated = any(0 < (position - neg_pos) <= 2 for neg_pos in negation_positions)
+            
+            if is_negated:
+                # Flip to positive and amplify
+                positive_score += abs(weight) * 1.2
+            else:
+                # Keep negative
+                negative_score += weight
+        
+        # Apply other modifiers (amplifiers, diminishers, etc.)
+        modified_positive, modified_negative = self._apply_other_modifiers(
+            positive_score, negative_score, modifiers
+        )
+        
+        return {
+            'positive': modified_positive,
+            'negative': modified_negative
+        }
+    
+    def _apply_other_modifiers(self, positive_score: float, negative_score: float,
+                               modifiers: Dict) -> Tuple[float, float]:
+        """Apply non-negation modifiers"""
+        modified_positive = positive_score
+        modified_negative = negative_score
+        
+        # Amplifiers boost magnitude
+        if modifiers['has_amplifier']:
+            modified_positive *= 1.3
+            modified_negative *= 1.3
+        
+        # Diminishers reduce magnitude
+        if modifiers['has_diminisher']:
+            modified_positive *= 0.7
+            modified_negative *= 0.7
+        
+        # Multiple exclamation marks = stronger emotion
+        if modifiers['exclamation_count'] >= 2:
+            boost = min(1.0 + (modifiers['exclamation_count'] * 0.1), 1.5)
+            modified_positive *= boost
+            modified_negative *= boost
+        
+        # All caps = emphasis (but reduce confidence due to potential spam)
+        if modifiers['is_all_caps']:
+            modified_positive *= 1.2
+            modified_negative *= 1.2
+        
+        # Question mark = uncertainty
+        if modifiers['has_question']:
+            modified_positive *= 0.8
+            modified_negative *= 0.8
+        
+        return modified_positive, modified_negative
     
     def _detect_sentiment_clusters(self, text: str, context_modifiers: Dict) -> Dict:
         """Detect phrase clusters that indicate stronger sentiment"""
@@ -313,61 +433,9 @@ class PNGSentimentHarvester:
         
         return {'positive': positive_bonus, 'negative': negative_bonus}
     
-    def _apply_context_modifiers(self, positive_score: float, negative_score: float, 
-                                 modifiers: Dict) -> Dict:
-        """Apply context modifiers to sentiment scores"""
-        modified_positive = positive_score
-        modified_negative = negative_score
-        
-        # Negation - flip and amplify
-        if modifiers['has_negation']:
-            modified_positive = negative_score * -1.2
-            modified_negative = positive_score * -1.2
-        
-        # Amplifiers boost magnitude
-        if modifiers['has_amplifier']:
-            modified_positive *= 1.3
-            modified_negative *= 1.3
-        
-        # Diminishers reduce magnitude
-        if modifiers['has_diminisher']:
-            modified_positive *= 0.7
-            modified_negative *= 0.7
-        
-        # Multiple exclamation marks = stronger emotion
-        if modifiers['exclamation_count'] >= 2:
-            boost = min(1.0 + (modifiers['exclamation_count'] * 0.1), 1.5)
-            modified_positive *= boost
-            modified_negative *= boost
-        
-        # All caps = emphasis
-        if modifiers['is_all_caps']:
-            modified_positive *= 1.2
-            modified_negative *= 1.2
-        
-        # Question mark = uncertainty
-        if modifiers['has_question']:
-            modified_positive *= 0.8
-            modified_negative *= 0.8
-        
-        return {
-            'positive': modified_positive,
-            'negative': modified_negative
-        }
-    
-    def analyze_batch(self, comments: List[Dict]) -> List[Dict]:
-        """Analyze multiple comments at once"""
-        results = []
-        for comment in comments:
-            analysis = self.analyze_sentiment(comment.get('text', ''))
-            results.append({
-                **comment,
-                'sentiment': analysis['sentiment'],
-                'sentiment_score': analysis['score'],
-                'confidence': analysis['confidence'],
-                'analysis_details': analysis['details']
-            })
-        return results
+    def analyze_batch(self, comments: List[str]) -> List[Dict]:
+        """Analyze a batch of comments"""
+        return [self.analyze_sentiment(comment) for comment in comments]
     
     def generate_summary(self, analyzed_comments: List[Dict]) -> Dict:
         """Generate summary statistics from analyzed comments"""
@@ -375,66 +443,64 @@ class PNGSentimentHarvester:
             return {
                 'total': 0,
                 'counts': {'positive': 0, 'negative': 0, 'neutral': 0},
-                'percentages': {'positive': 0, 'negative': 0, 'neutral': 0}
+                'percentages': {'positive': 0, 'negative': 0, 'neutral': 0},
+                'average_score': 0.0,
+                'top_positive': [],
+                'top_negative': []
             }
         
+        counts = {'positive': 0, 'negative': 0, 'neutral': 0}
+        scores = []
+        
+        for result in analyzed_comments:
+            sentiment = result.get('sentiment', 'Neutral')
+            counts[sentiment.lower()] += 1
+            scores.append(result.get('score', 0))
+        
         total = len(analyzed_comments)
-        counts = {
-            'positive': sum(1 for c in analyzed_comments if c.get('sentiment') == 'Positive'),
-            'negative': sum(1 for c in analyzed_comments if c.get('sentiment') == 'Negative'),
-            'neutral': sum(1 for c in analyzed_comments if c.get('sentiment') == 'Neutral')
+        percentages = {
+            'positive': round((counts['positive'] / total) * 100, 1),
+            'negative': round((counts['negative'] / total) * 100, 1),
+            'neutral': round((counts['neutral'] / total) * 100, 1)
         }
         
-        avg_score = sum(c.get('sentiment_score', 0) for c in analyzed_comments) / total
+        # Sort by score to find top comments
+        comments_with_scores = [(c.get('text', ''), c.get('score', 0), c.get('sentiment_score', c.get('score', 0)), 
+                                c.get('confidence', 'unknown')) for c in analyzed_comments]
         
-        top_positive = sorted(
-            [c for c in analyzed_comments if c.get('sentiment') == 'Positive'],
-            key=lambda x: x.get('sentiment_score', 0),
-            reverse=True
-        )[:10]
-        
-        top_negative = sorted(
-            [c for c in analyzed_comments if c.get('sentiment') == 'Negative'],
-            key=lambda x: x.get('sentiment_score', 0)
-        )[:10]
+        top_positive = sorted([c for c in analyzed_comments if c.get('sentiment') == 'Positive'], 
+                            key=lambda x: x.get('score', 0), reverse=True)[:5]
+        top_negative = sorted([c for c in analyzed_comments if c.get('sentiment') == 'Negative'], 
+                            key=lambda x: x.get('score', 0))[:5]
         
         return {
             'total': total,
             'counts': counts,
-            'percentages': {
-                'positive': round((counts['positive'] / total) * 100, 1),
-                'negative': round((counts['negative'] / total) * 100, 1),
-                'neutral': round((counts['neutral'] / total) * 100, 1)
-            },
-            'average_score': round(avg_score, 2),
+            'percentages': percentages,
+            'average_score': round(sum(scores) / len(scores), 2) if scores else 0.0,
             'top_positive': top_positive,
             'top_negative': top_negative
         }
 
 
-# Example usage and testing
 if __name__ == '__main__':
+    # Test the contextual negation fix
     harvester = PNGSentimentHarvester()
     
-    # Test cases
-    test_comments = [
-        {'id': 1, 'text': 'Em nau! Trupla gutpela wok ya, Pawa TV!', 'author': 'User1'},
-        {'id': 2, 'text': 'This is giaman, nogut tumas', 'author': 'User2'},
-        {'id': 3, 'text': 'Not bad, but could be better', 'author': 'User3'},
-        {'id': 4, 'text': 'PAWA TV NUMBER ONE!!! 🔥🔥🔥', 'author': 'User4'},
-        {'id': 5, 'text': 'Proper good interview bro, straight up', 'author': 'User5'},
-        {'id': 6, 'text': 'Is this for real? Seems like rubbish to me', 'author': 'User6'},
-        {'id': 7, 'text': 'PNG proud! Love what Pawa TV is doing', 'author': 'User7'}
+    test_cases = [
+        "Wonderful Pigin lyrics. Thanks, Oshen, for portraying the Tokpisin lyrics in your inspirational songs🎵...it's not the first really! But PNGuinean's a...",
+        "This is wonderful! Not bad at all.",
+        "Not good, actually terrible",
+        "I love this, it's not boring",
+        "The video is great but the audio is not clear",
+        "Gutpela tumas! Em ino nogut."
     ]
     
-    print('\n' + '='*70)
-    print('PNG SENTIMENT HARVESTER - TEST RESULTS')
-    print('='*70 + '\n')
+    print("="*80)
+    print("CONTEXTUAL NEGATION TEST - FIXED VERSION")
+    print("="*80)
     
-    for comment in test_comments:
-        result = harvester.analyze_sentiment(comment['text'])
-        print(f"Comment: \"{comment['text']}\"")
-        print(f"Result: {result['sentiment'].upper()} (score: {result['score']}, confidence: {result['confidence']})")
-        print(f"Matched terms: {len(result['details']['matched_terms']['positive'])} positive, "
-              f"{len(result['details']['matched_terms']['negative'])} negative")
-        print('-'*70 + '\n')
+    for text in test_cases:
+        result = harvester.analyze_sentiment(text)
+        print(f"\nText: {text}")
+        print(f"Score: {result['score']:.2f} | Sentiment: {result['sentiment']} | Confidence: {result['confidence']}")
