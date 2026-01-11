@@ -151,7 +151,19 @@ def analyze_comments_with_harvester(comments):
     """Analyze comments using PNG Sentiment Harvester"""
     print(f"\n🔍 Analyzing {len(comments)} comments with PNG Sentiment Harvester...")
     
-    analyzed_comments = harvester.analyze_batch(comments)
+    # Extract text from comment dicts and analyze
+    comment_texts = [c.get('text', '') for c in comments]
+    sentiment_results = harvester.analyze_batch(comment_texts)
+    
+    # Merge sentiment results back with original comment data
+    analyzed_comments = []
+    for comment, sentiment in zip(comments, sentiment_results):
+        analyzed_comment = {**comment}  # Copy original comment data
+        analyzed_comment['sentiment'] = sentiment['sentiment']
+        analyzed_comment['sentiment_score'] = sentiment['score']
+        analyzed_comment['confidence'] = sentiment['confidence']
+        analyzed_comment['details'] = sentiment.get('details', {})
+        analyzed_comments.append(analyzed_comment)
     
     # Print some insights
     high_confidence = [c for c in analyzed_comments if c.get('confidence') == 'high']

@@ -1,22 +1,29 @@
 {
-  "timestamp": "2026-01-12T08:15:32.862815",
-  "lastUpdated": "12/01/2026, 08:15:32",
+  "timestamp": "2026-01-12T08:46:54.267158",
+  "lastUpdated": "12/01/2026, 08:46:54",
   "stats": {
     "total": 5,
-    "positive": 0,
+    "positive": 1,
     "negative": 0,
-    "neutral": 5,
-    "positive_pct": 0.0,
+    "neutral": 4,
+    "positive_pct": 20.0,
     "negative_pct": 0.0,
-    "neutral_pct": 100.0,
+    "neutral_pct": 80.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "📺 Brand Awareness: 20.0% directly mention Pawa TV. 0 positive brand associations detected. Strong brand recognition.",
+    "→ High neutral sentiment (80.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "📺 Brand Awareness: 20.0% directly mention Pawa TV. 1 positive brand associations detected. Strong brand recognition.",
     "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [],
+  "topPositive": [
+    {
+      "text": "Mo pawa to you my black brothers!✊🏾",
+      "author": "@superwassou",
+      "score": 1.2,
+      "confidence": "medium"
+    }
+  ],
   "topNegative": [],
   "allComments": [
     {
@@ -27,7 +34,7 @@
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
-      "analysis_details": {
+      "details": {
         "positive_score": 0.0,
         "negative_score": 0.0,
         "total_magnitude": 0.0,
@@ -55,7 +62,7 @@
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
-      "analysis_details": {
+      "details": {
         "positive_score": 0.0,
         "negative_score": 0.0,
         "total_magnitude": 0.0,
@@ -81,11 +88,11 @@
       "video_id": "PFxg_JdsfUI",
       "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
       "sentiment": "Neutral",
-      "sentiment_score": -0.0,
+      "sentiment_score": 0.0,
       "confidence": "low",
-      "analysis_details": {
-        "positive_score": -0.0,
-        "negative_score": -0.0,
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
         "total_magnitude": 0.0,
         "context_modifiers": {
           "has_negation": true,
@@ -111,13 +118,13 @@
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
-      "analysis_details": {
+      "details": {
         "positive_score": 0.0,
         "negative_score": 0.0,
         "total_magnitude": 0.0,
         "context_modifiers": {
           "has_negation": false,
-          "has_amplifier": false,
+          "has_amplifier": true,
           "has_diminisher": false,
           "has_brand": false,
           "has_location": false,
@@ -136,13 +143,13 @@
       "author": "@superwassou",
       "video_id": "PFxg_JdsfUI",
       "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "analysis_details": {
-        "positive_score": 0.0,
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
         "negative_score": 0.0,
-        "total_magnitude": 0.0,
+        "total_magnitude": 1.2,
         "context_modifiers": {
           "has_negation": false,
           "has_amplifier": false,
@@ -154,7 +161,13 @@
           "has_question": false
         },
         "matched_terms": {
-          "positive": [],
+          "positive": [
+            {
+              "term": "pawa",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
           "negative": []
         }
       }
