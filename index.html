@@ -594,7 +594,7 @@
                         <div class="comment-item">
                             <div class="comment-meta">
                                 <span>${comment.author || 'Anonymous'}</span>
-                                <span class="accent-green">+${comment.sentiment_score.toFixed(2)}</span>
+                                <span class="accent-green">${'+' + comment.sentiment_score.toFixed(2)}</span>
                             </div>
                             <div class="comment-text">${comment.text}</div>
                         </div>
