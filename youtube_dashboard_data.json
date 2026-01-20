@@ -1,25 +1,31 @@
 {
-  "timestamp": "2026-01-19T09:30:18.536579",
-  "lastUpdated": "19/01/2026, 09:30:18",
+  "timestamp": "2026-01-20T09:29:08.419495",
+  "lastUpdated": "20/01/2026, 09:29:08",
   "stats": {
-    "total": 5,
-    "positive": 1,
+    "total": 8,
+    "positive": 2,
     "negative": 0,
-    "neutral": 4,
-    "positive_pct": 20.0,
+    "neutral": 6,
+    "positive_pct": 25.0,
     "negative_pct": 0.0,
-    "neutral_pct": 80.0,
+    "neutral_pct": 75.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (80.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "📺 Brand Awareness: 20.0% directly mention Pawa TV. 1 positive brand associations detected. Strong brand recognition.",
-    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (75.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "📺 Brand Awareness: 12.5% directly mention Pawa TV. 1 positive brand associations detected. Strong brand recognition.",
+    "🎬 Early-stage engagement (8 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
       "text": "Mo pawa to you my black brothers!✊🏾",
       "author": "@superwassou",
+      "score": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "text": "Thank you, NOU. People need to hear this kinds of explanation of our laws",
+      "author": "@soxx1365",
       "score": 1.2,
       "confidence": "medium"
     }
@@ -168,6 +174,96 @@
               "count": 1
             }
           ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Thank you, NOU. People need to hear this kinds of explanation of our laws",
+      "author": "@soxx1365",
+      "video_id": "ThWWS280acU",
+      "video_title": "One on One - Nou Vada on Customary Land Registration",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "ILGs are also counter productive because not all customary land belongs to the clan, most land is individually owned with clear demarcations in the form of trees or nowadays fences. So why does an individual landowner have to submit his land to the dictates of a Clan.",
+      "author": "@MegaTron_97",
+      "video_id": "ThWWS280acU",
+      "video_title": "One on One - Nou Vada on Customary Land Registration",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Please cancel chief and put PNG hunters💯💯❤️❤️👍",
+      "author": "@TroyMiamel",
+      "video_id": "00efsF_7OjE",
+      "video_title": "Papua New Guineans on The PNG Chiefs",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
           "negative": []
         }
       }
