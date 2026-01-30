@@ -1,31 +1,135 @@
 {
-  "timestamp": "2026-01-29T09:37:56.093792",
-  "lastUpdated": "29/01/2026, 09:37:56",
+  "timestamp": "2026-01-30T09:34:22.061285",
+  "lastUpdated": "30/01/2026, 09:34:22",
   "stats": {
-    "total": 5,
-    "positive": 1,
+    "total": 6,
+    "positive": 0,
     "negative": 0,
-    "neutral": 4,
-    "positive_pct": 20.0,
+    "neutral": 6,
+    "positive_pct": 0.0,
     "negative_pct": 0.0,
-    "neutral_pct": 80.0,
+    "neutral_pct": 100.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (80.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "📺 Brand Awareness: 20.0% directly mention Pawa TV. 1 positive brand associations detected. Strong brand recognition.",
-    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [
-    {
-      "text": "Mo pawa to you my black brothers!✊🏾",
-      "author": "@superwassou",
-      "score": 1.2,
-      "confidence": "medium"
-    }
-  ],
+  "topPositive": [],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Very well presented and insightful too! Learning something new everyday.",
+      "author": "@kaykayella3922",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 1,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "South America",
+      "author": "@christineTameta",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Kaukau ya...",
+      "author": "@gracerangit5552",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Wow wow 👌 👏North Western South America",
+      "author": "@helenbau6963",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "PNG cannot keep door open for occupiers of natives land in Australia and New Zealand. Especially Australia that has and continues to ethically cleanse indigenous people, as well as denies indigenous people basic rights and recognition.",
       "author": "@benjyadeola567",
@@ -78,96 +182,6 @@
         },
         "matched_terms": {
           "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Yup. You need a lot of investment. Not sure how appealing is downstream processing to foreign investors. If you need a whole infrastructure built around it, you'd need government investment.",
-      "author": "@Amin.Ashraf",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": true,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Its about to be 2026, and you're just now lookin @ Agro Processing?  What's stopping you is your so called leaders. You should hold them accountable.  Hold the accountable for Selling out their country.",
-      "author": "@MrNelson231",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": true,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": true
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Mo pawa to you my black brothers!✊🏾",
-      "author": "@superwassou",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": true,
-          "has_location": false,
-          "exclamation_count": 1,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "pawa",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
           "negative": []
         }
       }
