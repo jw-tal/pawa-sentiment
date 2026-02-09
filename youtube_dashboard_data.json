@@ -1,29 +1,21 @@
 {
-  "timestamp": "2026-02-08T09:25:53.169101",
-  "lastUpdated": "08/02/2026, 09:25:53",
+  "timestamp": "2026-02-09T09:58:34.214577",
+  "lastUpdated": "09/02/2026, 09:58:34",
   "stats": {
-    "total": 9,
-    "positive": 1,
+    "total": 6,
+    "positive": 0,
     "negative": 0,
-    "neutral": 8,
-    "positive_pct": 11.1,
+    "neutral": 6,
+    "positive_pct": 0.0,
     "negative_pct": 0.0,
-    "neutral_pct": 88.9,
+    "neutral_pct": 100.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (88.9%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "📺 Brand Awareness: 11.1% directly mention Pawa TV. 1 positive brand associations detected. Strong brand recognition.",
-    "🎬 Early-stage engagement (9 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [
-    {
-      "text": "Mo pawa to you my black brothers!✊🏾",
-      "author": "@superwassou",
-      "score": 1.2,
-      "confidence": "medium"
-    }
-  ],
+  "topPositive": [],
   "topNegative": [],
   "allComments": [
     {
@@ -190,96 +182,6 @@
         },
         "matched_terms": {
           "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Yup. You need a lot of investment. Not sure how appealing is downstream processing to foreign investors. If you need a whole infrastructure built around it, you'd need government investment.",
-      "author": "@Amin.Ashraf",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": true,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Its about to be 2026, and you're just now lookin @ Agro Processing?  What's stopping you is your so called leaders. You should hold them accountable.  Hold the accountable for Selling out their country.",
-      "author": "@MrNelson231",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": true,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": true
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Mo pawa to you my black brothers!✊🏾",
-      "author": "@superwassou",
-      "video_id": "PFxg_JdsfUI",
-      "video_title": "What is Downstream Processing? #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": true,
-          "has_location": false,
-          "exclamation_count": 1,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "pawa",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
           "negative": []
         }
       }
