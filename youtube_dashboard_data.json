@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-02-11T09:49:26.961514",
-  "lastUpdated": "11/02/2026, 09:49:26",
+  "timestamp": "2026-02-12T09:43:08.160814",
+  "lastUpdated": "12/02/2026, 09:43:08",
   "stats": {
-    "total": 6,
+    "total": 7,
     "positive": 0,
     "negative": 0,
-    "neutral": 6,
+    "neutral": 7,
     "positive_pct": 0.0,
     "negative_pct": 0.0,
     "neutral_pct": 100.0,
@@ -13,11 +13,39 @@
   },
   "recommendations": [
     "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (7 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Hi Edward Andrew from NSO,\nHow about auti culture anything else for this gardening method please 🙏 palate.",
+      "author": "@edwardandrew-m3v",
+      "video_id": "042d_ox-cek",
+      "video_title": "The Kuk Agricultural Site #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Very well presented and insightful too! Learning something new everyday.",
       "author": "@kaykayella3922",
