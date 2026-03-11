@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-03-10T09:38:42.894854",
-  "lastUpdated": "10/03/2026, 09:38:42",
+  "timestamp": "2026-03-11T09:37:55.508338",
+  "lastUpdated": "11/03/2026, 09:37:55",
   "stats": {
-    "total": 5,
+    "total": 7,
     "positive": 0,
     "negative": 0,
-    "neutral": 5,
+    "neutral": 7,
     "positive_pct": 0.0,
     "negative_pct": 0.0,
     "neutral_pct": 100.0,
@@ -13,7 +13,7 @@
   },
   "recommendations": [
     "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (7 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [],
   "topNegative": [],
@@ -135,6 +135,62 @@
       "author": "@helenbau6963",
       "video_id": "KaeIZ6EEe24",
       "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "PNG cannot keep door open for occupiers of natives land in Australia and New Zealand. Especially Australia that has and continues to ethically cleanse indigenous people, as well as denies indigenous people basic rights and recognition.",
+      "author": "@benjyadeola567",
+      "video_id": "4kIeu5haOeU",
+      "video_title": "A Trade Revolution with China #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "facts well statedd👍",
+      "author": "@FracisBagu",
+      "video_id": "4kIeu5haOeU",
+      "video_title": "A Trade Revolution with China #PapuaNewGuinea #PawaNius #Economics",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
