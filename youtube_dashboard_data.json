@@ -1,140 +1,69 @@
 {
-  "timestamp": "2026-03-12T09:37:45.920093",
-  "lastUpdated": "12/03/2026, 09:37:45",
+  "timestamp": "2026-03-13T09:34:31.036419",
+  "lastUpdated": "13/03/2026, 09:34:31",
   "stats": {
-    "total": 5,
-    "positive": 0,
+    "total": 2,
+    "positive": 1,
     "negative": 0,
-    "neutral": 5,
-    "positive_pct": 0.0,
+    "neutral": 1,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 100.0,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [],
+  "topPositive": [
+    {
+      "text": "It is such a great culture and believes in human history 🎉❤",
+      "author": "@jpts1212",
+      "score": 1.2,
+      "confidence": "medium"
+    }
+  ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "It is such a great culture and believes in human history 🎉❤",
+      "author": "@jpts1212",
+      "video_id": "awnN-thJEbg",
+      "video_title": "The Kalam Headdress #PapuaNewGuinea #PawaNius #Culture",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "great",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Hi Edward Andrew from NSO,\nHow about auti culture anything else for this gardening method please 🙏 palate.",
       "author": "@edwardandrew-m3v",
       "video_id": "042d_ox-cek",
       "video_title": "The Kuk Agricultural Site #PapuaNewGuinea #PawaNius #Agriculture",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Very well presented and insightful too! Learning something new everyday.",
-      "author": "@kaykayella3922",
-      "video_id": "KaeIZ6EEe24",
-      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": true,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 1,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "South America",
-      "author": "@christineTameta",
-      "video_id": "KaeIZ6EEe24",
-      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Kaukau ya...",
-      "author": "@gracerangit5552",
-      "video_id": "KaeIZ6EEe24",
-      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Wow wow 👌 👏North Western South America",
-      "author": "@helenbau6963",
-      "video_id": "KaeIZ6EEe24",
-      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
