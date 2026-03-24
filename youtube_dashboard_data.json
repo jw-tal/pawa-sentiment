@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-23T09:58:05.095539",
-  "lastUpdated": "23/03/2026, 09:58:05",
+  "timestamp": "2026-03-24T09:51:50.329392",
+  "lastUpdated": "24/03/2026, 09:51:50",
   "stats": {
-    "total": 2,
+    "total": 3,
     "positive": 1,
-    "negative": 0,
+    "negative": 1,
     "neutral": 1,
-    "positive_pct": 50.0,
-    "negative_pct": 0.0,
-    "neutral_pct": 50.0,
+    "positive_pct": 33.3,
+    "negative_pct": 33.3,
+    "neutral_pct": 33.3,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "⚠ Elevated negative sentiment (33.3%) detected. Review 0 high-confidence negative comments for specific concerns. Consider addressing audience feedback in next video.",
+    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -23,8 +23,49 @@
       "confidence": "medium"
     }
   ],
-  "topNegative": [],
+  "topNegative": [
+    {
+      "text": "The Act is not discriminatory. Thank you Governor",
+      "author": "@bonneyhative3170",
+      "score": -1.44,
+      "confidence": "medium"
+    }
+  ],
   "allComments": [
+    {
+      "text": "The Act is not discriminatory. Thank you Governor",
+      "author": "@bonneyhative3170",
+      "video_id": "HbmbqVjpJWI",
+      "video_title": "NCD Governor Powes Parkop on The Vagrancy Act",
+      "sentiment": "Negative",
+      "sentiment_score": -1.44,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": -1.44,
+        "total_magnitude": 1.44,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "It is such a great culture and believes in human history 🎉❤",
       "author": "@jpts1212",
