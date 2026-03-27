@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-26T09:56:51.468867",
-  "lastUpdated": "26/03/2026, 09:56:51",
+  "timestamp": "2026-03-27T09:50:51.436335",
+  "lastUpdated": "27/03/2026, 09:50:51",
   "stats": {
-    "total": 3,
+    "total": 7,
     "positive": 1,
     "negative": 1,
-    "neutral": 1,
-    "positive_pct": 33.3,
-    "negative_pct": 33.3,
-    "neutral_pct": 33.3,
+    "neutral": 5,
+    "positive_pct": 14.3,
+    "negative_pct": 14.3,
+    "neutral_pct": 71.4,
     "average_score": 0.0
   },
   "recommendations": [
-    "⚠ Elevated negative sentiment (33.3%) detected. Review 0 high-confidence negative comments for specific concerns. Consider addressing audience feedback in next video.",
-    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (71.4%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (7 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -105,6 +105,118 @@
       "author": "@edwardandrew-m3v",
       "video_id": "042d_ox-cek",
       "video_title": "The Kuk Agricultural Site #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Very well presented and insightful too! Learning something new everyday.",
+      "author": "@kaykayella3922",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 1,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "South America",
+      "author": "@christineTameta",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Kaukau ya...",
+      "author": "@gracerangit5552",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Wow wow 👌 👏North Western South America",
+      "author": "@helenbau6963",
+      "video_id": "KaeIZ6EEe24",
+      "video_title": "The Origins of the Sweet Potato #PapuaNewGuinea #PawaNius #Agriculture",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
