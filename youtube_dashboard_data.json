@@ -1,20 +1,19 @@
 {
-  "timestamp": "2026-03-30T10:12:45.086789",
-  "lastUpdated": "30/03/2026, 10:12:45",
+  "timestamp": "2026-03-31T10:01:52.531141",
+  "lastUpdated": "31/03/2026, 10:01:52",
   "stats": {
-    "total": 2,
+    "total": 3,
     "positive": 1,
     "negative": 1,
-    "neutral": 0,
-    "positive_pct": 50.0,
-    "negative_pct": 50.0,
-    "neutral_pct": 0.0,
+    "neutral": 1,
+    "positive_pct": 33.3,
+    "negative_pct": 33.3,
+    "neutral_pct": 33.3,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "⚠ Elevated negative sentiment (50.0%) detected. Review 0 high-confidence negative comments for specific concerns. Consider addressing audience feedback in next video.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "⚠ Elevated negative sentiment (33.3%) detected. Review 0 high-confidence negative comments for specific concerns. Consider addressing audience feedback in next video.",
+    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -33,6 +32,34 @@
     }
   ],
   "allComments": [
+    {
+      "text": "Livelihood is far too important than the mine. There are alot of activities for the people to get involved in as economic development. The Sepik River System is LIFE. To answer the question, we will DIE if mining is introduced.",
+      "author": "@thomasnakui6922",
+      "video_id": "m7CEmloQDx4",
+      "video_title": "The Beauty of the Sepik River #PapuaNewGuinea #PawaNius #Environment",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "The Act is not discriminatory. Thank you Governor",
       "author": "@bonneyhative3170",
