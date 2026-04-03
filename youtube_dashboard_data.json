@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-02T09:56:43.558772",
-  "lastUpdated": "02/04/2026, 09:56:43",
+  "timestamp": "2026-04-03T09:48:29.844097",
+  "lastUpdated": "03/04/2026, 09:48:29",
   "stats": {
-    "total": 3,
+    "total": 4,
     "positive": 1,
     "negative": 1,
-    "neutral": 1,
-    "positive_pct": 33.3,
-    "negative_pct": 33.3,
-    "neutral_pct": 33.3,
+    "neutral": 2,
+    "positive_pct": 25.0,
+    "negative_pct": 25.0,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "⚠ Elevated negative sentiment (33.3%) detected. Review 0 high-confidence negative comments for specific concerns. Consider addressing audience feedback in next video.",
-    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ Moderate negative feedback (25.0%). Monitor comments for constructive criticism and address concerns transparently.",
+    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -51,6 +51,34 @@
           "has_brand": false,
           "has_location": false,
           "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "No substance in your explanation Sir!",
+      "author": "@joikerekusip483",
+      "video_id": "HbmbqVjpJWI",
+      "video_title": "NCD Governor Powes Parkop on The Vagrancy Act",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 1,
           "is_all_caps": false,
           "has_question": false
         },
