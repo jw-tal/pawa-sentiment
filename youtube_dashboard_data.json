@@ -1,21 +1,27 @@
 {
-  "timestamp": "2026-04-08T10:04:03.287663",
-  "lastUpdated": "08/04/2026, 10:04:03",
+  "timestamp": "2026-04-09T10:08:37.621939",
+  "lastUpdated": "09/04/2026, 10:08:37",
   "stats": {
-    "total": 4,
-    "positive": 1,
+    "total": 6,
+    "positive": 2,
     "negative": 1,
-    "neutral": 2,
-    "positive_pct": 25.0,
-    "negative_pct": 25.0,
+    "neutral": 3,
+    "positive_pct": 33.3,
+    "negative_pct": 16.7,
     "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ Moderate negative feedback (25.0%). Monitor comments for constructive criticism and address concerns transparently.",
-    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ Moderate negative feedback (16.7%). Monitor comments for constructive criticism and address concerns transparently.",
+    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
+    {
+      "text": "Thank you for the most important information❤😊",
+      "author": "@demasalapi354",
+      "score": 1.2,
+      "confidence": "medium"
+    },
     {
       "text": "It is such a great culture and believes in human history 🎉❤",
       "author": "@jpts1212",
@@ -33,9 +39,9 @@
   ],
   "allComments": [
     {
-      "text": "Livelihood is far too important than the mine. There are alot of activities for the people to get involved in as economic development. The Sepik River System is LIFE. To answer the question, we will DIE if mining is introduced.",
-      "author": "@thomasnakui6922",
-      "video_id": "m7CEmloQDx4",
+      "text": "Development is the main cause of global warming, the environment is always more important",
+      "author": "@RichardsonCudjoe",
+      "video_id": "aBiL4iMweJ0",
       "video_title": "The Beauty of the Sepik River #PapuaNewGuinea #PawaNius #Environment",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
@@ -46,11 +52,73 @@
         "total_magnitude": 0.0,
         "context_modifiers": {
           "has_negation": false,
-          "has_amplifier": true,
+          "has_amplifier": false,
           "has_diminisher": false,
           "has_brand": false,
           "has_location": false,
           "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Thank you for the most important information❤😊",
+      "author": "@demasalapi354",
+      "video_id": "aBiL4iMweJ0",
+      "video_title": "The Beauty of the Sepik River #PapuaNewGuinea #PawaNius #Environment",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Honorable Governor Powes Parkop,\nAs a prominent Human Rights lawyer, you know the law better than anyone. It is therefore deeply hypocritical that you are now violating the fundamental rights of 13 million Papua New Guineans by championing the Vagrancy Act. This bill effectively turns our own people into refugees within their own country. Before pushing this \"stupidity bill\" any further, you must acknowledge that you are obliterating the Human Rights set by the UN and the Commonwealth—specifically the constitutional freedoms of movement and speech.\nFurthermore, the City Warden program appears to be a massive scam designed to defraud the 1 billion Kina commission fund meant for the people of NCD. Specifically, the 17 million Kina budget set aside for the City Wardens is allegedly being siphoned through a series of \"management fees\":\nFunds move from the NCD City Hall account to City Security.\nThey are then transferred to Sengal Parkop (Blitz) under the guise of management fees.\nOnly then do they reach the City Warden account, where workers are paid in cash rather than through official bank accounts.\nThis is a blatant operation by the Governor, his family, and associates to exploit the NCD People’s Office. We demand that the Ombudsman Commission, the Fraud Squad, ICAC, and Transparency International launch an immediate investigation and arrest those involved in this corruption. Accountability is not optional!",
+      "author": "@kingsman-pg",
+      "video_id": "HbmbqVjpJWI",
+      "video_title": "NCD Governor Powes Parkop on The Vagrancy Act",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 1,
           "is_all_caps": false,
           "has_question": false
         },
