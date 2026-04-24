@@ -1,30 +1,24 @@
 {
-  "timestamp": "2026-04-23T10:18:39.824171",
-  "lastUpdated": "23/04/2026, 10:18:39",
+  "timestamp": "2026-04-24T10:17:44.681839",
+  "lastUpdated": "24/04/2026, 10:17:44",
   "stats": {
-    "total": 6,
-    "positive": 2,
+    "total": 5,
+    "positive": 1,
     "negative": 1,
     "neutral": 3,
-    "positive_pct": 33.3,
-    "negative_pct": 16.7,
-    "neutral_pct": 50.0,
+    "positive_pct": 20.0,
+    "negative_pct": 20.0,
+    "neutral_pct": 60.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ Moderate negative feedback (16.7%). Monitor comments for constructive criticism and address concerns transparently.",
-    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ Moderate negative feedback (20.0%). Monitor comments for constructive criticism and address concerns transparently.",
+    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
       "text": "Thank you for the most important information❤😊",
       "author": "@demasalapi354",
-      "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "It is such a great culture and believes in human history 🎉❤",
-      "author": "@jpts1212",
       "score": 1.2,
       "confidence": "medium"
     }
@@ -182,40 +176,6 @@
           "positive": [
             {
               "term": "thank",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "It is such a great culture and believes in human history 🎉❤",
-      "author": "@jpts1212",
-      "video_id": "awnN-thJEbg",
-      "video_title": "The Kalam Headdress #PapuaNewGuinea #PawaNius #Culture",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "great",
               "weight": 1.2,
               "count": 1
             }
