@@ -1,47 +1,264 @@
 {
-  "timestamp": "2026-05-08T10:20:21.977817",
-  "lastUpdated": "08/05/2026, 10:20:21",
+  "timestamp": "2026-05-09T10:02:19.563589",
+  "lastUpdated": "09/05/2026, 10:02:19",
   "stats": {
-    "total": 10,
-    "positive": 4,
-    "negative": 0,
-    "neutral": 6,
-    "positive_pct": 40.0,
-    "negative_pct": 0.0,
-    "neutral_pct": 60.0,
+    "total": 16,
+    "positive": 8,
+    "negative": 1,
+    "neutral": 7,
+    "positive_pct": 50.0,
+    "negative_pct": 6.2,
+    "neutral_pct": 43.8,
     "average_score": 0.0
   },
   "recommendations": [
-    "🎬 Early-stage engagement (10 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (16 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
+    {
+      "text": "Great interview. Very informative.",
+      "author": "@solomonkalit",
+      "score": 3.12,
+      "confidence": "high"
+    },
+    {
+      "text": "One of the most informed and prepared leaders in the current parliament. He speaks with facts and sound reasoning and can present evidence when required. \nWe need more leaders with such calibre🙏🙏.\nHe's correct, we do not have the necessary resources to police our standards in the industry and update them to reflect national aspirations balanced with commercial interests..\nAppreciate you, Governor Bird",
+      "author": "@WiminieKwainduo",
+      "score": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "text": "Ibrahim Traore is the answer.  Em tasol",
+      "author": "@hinifonoadams810",
+      "score": 0.8,
+      "confidence": "medium"
+    },
+    {
+      "text": "The attitude of our government, since, has been that they only pretend to care about the destructive  effects of the mining so long as those affected aren't heard. NGO groups and the independent media people were also a threat both the miners and the government. A wreckless attitude by our own leaders gas resulted in very dangerous situations, like Bougainville, Porgera and Ramu Nickel.\nLet this Frieda River mining be a precedence set by the ES provincial government so that future mining in PNG follow the same prospects.",
+      "author": "@samsonsupaka8716",
+      "score": 1.56,
+      "confidence": "medium"
+    },
     {
       "text": "Thank you Governor for being Sepik Voice of wisdom",
       "author": "@NormanBapun",
       "score": 1.2,
       "confidence": "medium"
-    },
+    }
+  ],
+  "topNegative": [
     {
-      "text": "Thank you governor Bird for the wise insight. You will be the only voice of the Sepik river people for survival. We trust your decision making.",
-      "author": "@EmmanuelYangis-qj4by",
-      "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "Well presented, please can the government listen to what my Governor has said..thank you... Singrin Musing agree with you 🎉🎉🎉AB",
-      "author": "@RBunawa",
-      "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "Thank you for the most important information❤😊",
-      "author": "@demasalapi354",
-      "score": 1.2,
+      "text": "I'm agree with Allen. I come from Porgera. We are facing lot of problems and it is really frustrating. National government is not car about people and environment around the communities. MRA is not doing enough awareness to make sure people understand everything. People must not compromise with national government officials. Government officials created many division among landowners.. please stand together and stand with Governor before you late..",
+      "author": "@AlusMarkmaliwa-k3k",
+      "score": -1.56,
       "confidence": "medium"
     }
   ],
-  "topNegative": [],
   "allComments": [
+    {
+      "text": "Landowners, and Sepik river people ought to be a part of the discussion with the developers in a panel where everyone's concerns are agreed and  signed to  give a green lights to go ahead.",
+      "author": "@LinusPaulus-y2f",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Great interview. Very informative.",
+      "author": "@solomonkalit",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 3.12,
+      "confidence": "high",
+      "details": {
+        "positive_score": 3.12,
+        "negative_score": 0.0,
+        "total_magnitude": 3.12,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "great",
+              "weight": 1.2,
+              "count": 1
+            },
+            {
+              "term": "informative",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "One of the most informed and prepared leaders in the current parliament. He speaks with facts and sound reasoning and can present evidence when required. \nWe need more leaders with such calibre🙏🙏.\nHe's correct, we do not have the necessary resources to police our standards in the industry and update them to reflect national aspirations balanced with commercial interests..\nAppreciate you, Governor Bird",
+      "author": "@WiminieKwainduo",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "appreciate",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Ibrahim Traore is the answer.  Em tasol",
+      "author": "@hinifonoadams810",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 0.8,
+        "negative_score": 0.0,
+        "total_magnitude": 0.8,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "em tasol",
+              "weight": 0.8,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "The attitude of our government, since, has been that they only pretend to care about the destructive  effects of the mining so long as those affected aren't heard. NGO groups and the independent media people were also a threat both the miners and the government. A wreckless attitude by our own leaders gas resulted in very dangerous situations, like Bougainville, Porgera and Ramu Nickel.\nLet this Frieda River mining be a precedence set by the ES provincial government so that future mining in PNG follow the same prospects.",
+      "author": "@samsonsupaka8716",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 1.56,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.56,
+        "negative_score": 0.0,
+        "total_magnitude": 1.56,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "like",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "I'm agree with Allen. I come from Porgera. We are facing lot of problems and it is really frustrating. National government is not car about people and environment around the communities. MRA is not doing enough awareness to make sure people understand everything. People must not compromise with national government officials. Government officials created many division among landowners.. please stand together and stand with Governor before you late..",
+      "author": "@AlusMarkmaliwa-k3k",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Negative",
+      "sentiment_score": -1.56,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": -1.56,
+        "total_magnitude": 1.56,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": [
+            {
+              "term": "frustrating",
+              "weight": -1.2,
+              "count": 1
+            }
+          ]
+        }
+      }
+    },
     {
       "text": "A solid presentation: General appeal to all persons from the sepik plain seeing this facts to make genuine attempts to explore more on the subject to be better prepared to inform the larger majority. Note: The Governor's take on absence of an active governmental  agency to monitor and evaluate broad environmental and social impacts to people directly affected by this process is paramount. Look at the fly river  system then make informed judgements.",
       "author": "@rtoli2649",
