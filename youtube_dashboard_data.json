@@ -1,21 +1,32 @@
 {
-  "timestamp": "2026-05-10T10:09:11.128497",
-  "lastUpdated": "10/05/2026, 10:09:11",
+  "timestamp": "2026-05-11T12:06:03.339615",
+  "lastUpdated": "11/05/2026, 12:06:03",
   "stats": {
-    "total": 20,
-    "positive": 10,
+    "total": 31,
+    "positive": 12,
     "negative": 1,
-    "neutral": 9,
-    "positive_pct": 50.0,
-    "negative_pct": 5.0,
-    "neutral_pct": 45.0,
+    "neutral": 18,
+    "positive_pct": 38.7,
+    "negative_pct": 3.2,
+    "neutral_pct": 58.1,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (20 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🌱 Growing community (31 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
+    {
+      "text": "All PNG  Provincial Governor's and Llg Presidents please take notes. Very important for good of our people and future generations...With too much talk about Papua LNG this is a clear message from the wise and visionary Leader for Gulf Governor and Llg Presidents to take notes",
+      "author": "@neauriauamoromoro5466",
+      "score": 1.56,
+      "confidence": "medium"
+    },
+    {
+      "text": "My view is that mining should proceed with good environmental impact safeguard put in place. If tailings containment dam is needed, so be it.",
+      "author": "@quin-s2d",
+      "score": 1.56,
+      "confidence": "medium"
+    },
     {
       "text": "Thank you Hon AB, Governor of East Sepik for the wise counsel to our Sepik River people, East Sepik and the National Government including concerned Authorities. \nOur people of Sepik River has been living there along the River for hundreds of years from Ambunti down to Pagwi..Gawi people, down to Angoram, Marianberg, all the way to Kopar..\nMaus blo Sepik including the Wewak Islands and the Manam Island  their lively hoods has been dependant on the Mighty Sepik River for generations.\nEnvironmental Impact Studies and all other safety issues eminating from the Frieda Mining development MUST be addressed before mining activities take place. Our livelyhood will be affected and devastated as River people and Inland Sepik people have been dependent on fish, sago and local barter systems trade, living a carefree life as long as the Sepik River is our mother who feeds the inhabitants.\nI am from Wosera and l stand with my Gaindus from Ambunti to Pagwi to Angoram to Kopar, l SAY NO FRIEDA MINING..\nI CRY😂😂 FOR MY SEPIK RIVER TO BE FREE FROM MINING WASTE CONTAMINANTS.\nLIVE MY SEPIK RIVER ALONE..❤❤",
       "author": "@cainetommy4195",
@@ -33,18 +44,6 @@
       "author": "@solomonkalit",
       "score": 3.12,
       "confidence": "high"
-    },
-    {
-      "text": "One of the most informed and prepared leaders in the current parliament. He speaks with facts and sound reasoning and can present evidence when required. \nWe need more leaders with such calibre🙏🙏.\nHe's correct, we do not have the necessary resources to police our standards in the industry and update them to reflect national aspirations balanced with commercial interests..\nAppreciate you, Governor Bird",
-      "author": "@WiminieKwainduo",
-      "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "Ibrahim Traore is the answer.  Em tasol",
-      "author": "@hinifonoadams810",
-      "score": 0.8,
-      "confidence": "medium"
     }
   ],
   "topNegative": [
@@ -56,6 +55,326 @@
     }
   ],
   "allComments": [
+    {
+      "text": "Very supportive to our governor I did  attended one of the meetings back in yenjen village where views of the people were put forward and the outcome of that meeting was that nearly all the people along the sepik River are against the move to develop the freida  mine so just forget the  idea coz our population along the sepik River depends entirely on the sepik River for their survival!!!!!!!!😅",
+      "author": "@leoluee",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 8,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Hon Governor, just be careful, be very careful, Sir, you have vast land that you can use for major agriculture and livestock development that will benefit your people. Extractive Industries in PNG have not been monitored well by our govt allowing pollution and you don't see physical benefits to the landowners... MD",
+      "author": "@michaeldokupdr3203",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Tell marape to go and develop agriculture in his home province in line with his connact png and leave Frieda alone because he is not transparent and lacks accountability which is very irresponsible.",
+      "author": "@AugustineJKoava",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "All PNG  Provincial Governor's and Llg Presidents please take notes. Very important for good of our people and future generations...With too much talk about Papua LNG this is a clear message from the wise and visionary Leader for Gulf Governor and Llg Presidents to take notes",
+      "author": "@neauriauamoromoro5466",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 1.56,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.56,
+        "negative_score": 0.0,
+        "total_magnitude": 1.56,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "good",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Well said leader",
+      "author": "@CharlesMuri-se6nv",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "My view is that mining should proceed with good environmental impact safeguard put in place. If tailings containment dam is needed, so be it.",
+      "author": "@quin-s2d",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 1.56,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.56,
+        "negative_score": 0.0,
+        "total_magnitude": 1.56,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "good",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Very wise comments governor,seek wisdom from above to guide & strengthen your leadership to captain ESP.",
+      "author": "@CharlesIamura-m2b",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "He looks beyond the expectations of his people and other leaders with political perspectives in the political arena for our future generations.",
+      "author": "@lawrencehawayawi9709",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "powerful Governor, powerful thoughts , very intelligent Governor of people of Sepik River people and greater Sepik",
+      "author": "@LeviNanguan-v9r",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "They can involve outside environmental protection company but must take on board the sons and daughters of Sepik River people who are environmentalist can participate in EIA.",
+      "author": "@LeviNanguan-v9r",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Governor we can not relied on environmental impact assessment study done by people with conflict of interest and also we the people of Sepik did not want the mine. we want ecotourism and agricultural projects that you are a champion",
+      "author": "@LeviNanguan-v9r",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Thank you Hon AB, Governor of East Sepik for the wise counsel to our Sepik River people, East Sepik and the National Government including concerned Authorities. \nOur people of Sepik River has been living there along the River for hundreds of years from Ambunti down to Pagwi..Gawi people, down to Angoram, Marianberg, all the way to Kopar..\nMaus blo Sepik including the Wewak Islands and the Manam Island  their lively hoods has been dependant on the Mighty Sepik River for generations.\nEnvironmental Impact Studies and all other safety issues eminating from the Frieda Mining development MUST be addressed before mining activities take place. Our livelyhood will be affected and devastated as River people and Inland Sepik people have been dependent on fish, sago and local barter systems trade, living a carefree life as long as the Sepik River is our mother who feeds the inhabitants.\nI am from Wosera and l stand with my Gaindus from Ambunti to Pagwi to Angoram to Kopar, l SAY NO FRIEDA MINING..\nI CRY😂😂 FOR MY SEPIK RIVER TO BE FREE FROM MINING WASTE CONTAMINANTS.\nLIVE MY SEPIK RIVER ALONE..❤❤",
       "author": "@cainetommy4195",
