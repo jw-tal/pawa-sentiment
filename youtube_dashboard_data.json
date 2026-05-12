@@ -1,18 +1,19 @@
 {
-  "timestamp": "2026-05-11T12:06:03.339615",
-  "lastUpdated": "11/05/2026, 12:06:03",
+  "timestamp": "2026-05-12T11:17:18.948906",
+  "lastUpdated": "12/05/2026, 11:17:18",
   "stats": {
-    "total": 31,
+    "total": 33,
     "positive": 12,
     "negative": 1,
-    "neutral": 18,
-    "positive_pct": 38.7,
-    "negative_pct": 3.2,
-    "neutral_pct": 58.1,
+    "neutral": 20,
+    "positive_pct": 36.4,
+    "negative_pct": 3.0,
+    "neutral_pct": 60.6,
     "average_score": 0.0
   },
   "recommendations": [
-    "🌱 Growing community (31 comments). Encourage discussion through strategic questions and community interaction."
+    "→ High neutral sentiment (60.6%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🌱 Growing community (33 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
     {
@@ -55,6 +56,62 @@
     }
   ],
   "allComments": [
+    {
+      "text": "Samgi. Walapan. Gearf. ☝🏼💯🎉🎉🎉🎉",
+      "author": "@KunexSasa",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Totally agree with the East Sepik Govenor Allan Bird.",
+      "author": "@MichaelTerania-cb1jx",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Very supportive to our governor I did  attended one of the meetings back in yenjen village where views of the people were put forward and the outcome of that meeting was that nearly all the people along the sepik River are against the move to develop the freida  mine so just forget the  idea coz our population along the sepik River depends entirely on the sepik River for their survival!!!!!!!!😅",
       "author": "@leoluee",
