@@ -1,21 +1,26 @@
 {
-  "timestamp": "2026-05-12T11:17:18.948906",
-  "lastUpdated": "12/05/2026, 11:17:18",
+  "timestamp": "2026-05-13T11:28:01.922684",
+  "lastUpdated": "13/05/2026, 11:28:01",
   "stats": {
-    "total": 33,
-    "positive": 12,
+    "total": 34,
+    "positive": 13,
     "negative": 1,
     "neutral": 20,
-    "positive_pct": 36.4,
-    "negative_pct": 3.0,
-    "neutral_pct": 60.6,
+    "positive_pct": 38.2,
+    "negative_pct": 2.9,
+    "neutral_pct": 58.8,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (60.6%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🌱 Growing community (33 comments). Encourage discussion through strategic questions and community interaction."
+    "🌱 Growing community (34 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
+    {
+      "text": "The Papua New Guinea Government has a big responsibly but continues to fail in protecting and delivering the social, economic and welfare guarantee for its citizen. The population have lost trust in its leaders, and as a Sepik how can we be sure that our rights are protected, our way of life can continue to thrive. The Government that was supposed to protected will be sided with company and we cannot be guarantee anything at this stage. Thank you My Governor for speaking, the country has no standards, and we don't even have an effective enforcement agency to keep those companies checks and keep up with the standards.",
+      "author": "@khamalai",
+      "score": 1.2,
+      "confidence": "medium"
+    },
     {
       "text": "All PNG  Provincial Governor's and Llg Presidents please take notes. Very important for good of our people and future generations...With too much talk about Papua LNG this is a clear message from the wise and visionary Leader for Gulf Governor and Llg Presidents to take notes",
       "author": "@neauriauamoromoro5466",
@@ -39,12 +44,6 @@
       "author": "@TonyLeslie-v1m",
       "score": 6.24,
       "confidence": "high"
-    },
-    {
-      "text": "Great interview. Very informative.",
-      "author": "@solomonkalit",
-      "score": 3.12,
-      "confidence": "high"
     }
   ],
   "topNegative": [
@@ -56,6 +55,40 @@
     }
   ],
   "allComments": [
+    {
+      "text": "The Papua New Guinea Government has a big responsibly but continues to fail in protecting and delivering the social, economic and welfare guarantee for its citizen. The population have lost trust in its leaders, and as a Sepik how can we be sure that our rights are protected, our way of life can continue to thrive. The Government that was supposed to protected will be sided with company and we cannot be guarantee anything at this stage. Thank you My Governor for speaking, the country has no standards, and we don't even have an effective enforcement agency to keep those companies checks and keep up with the standards.",
+      "author": "@khamalai",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Samgi. Walapan. Gearf. ☝🏼💯🎉🎉🎉🎉",
       "author": "@KunexSasa",
