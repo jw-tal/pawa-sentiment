@@ -1,18 +1,19 @@
 {
-  "timestamp": "2026-05-14T11:11:13.197604",
-  "lastUpdated": "14/05/2026, 11:11:13",
+  "timestamp": "2026-05-15T11:16:50.362079",
+  "lastUpdated": "15/05/2026, 11:16:50",
   "stats": {
-    "total": 34,
+    "total": 36,
     "positive": 13,
     "negative": 1,
-    "neutral": 20,
-    "positive_pct": 38.2,
-    "negative_pct": 2.9,
-    "neutral_pct": 58.8,
+    "neutral": 22,
+    "positive_pct": 36.1,
+    "negative_pct": 2.8,
+    "neutral_pct": 61.1,
     "average_score": 0.0
   },
   "recommendations": [
-    "🌱 Growing community (34 comments). Encourage discussion through strategic questions and community interaction."
+    "→ High neutral sentiment (61.1%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🌱 Growing community (36 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
     {
@@ -55,6 +56,62 @@
     }
   ],
   "allComments": [
+    {
+      "text": "Simple JUST SAY KNOW TO FRIEDA MINE NO WAFI GOLPU - yumi short lo wanem na laik dig, kamapim hul lo olgeta hap lo liklik PNG island nogat giruan now. Population blow up na giraun shot yah yupla lukim tu o",
+      "author": "@stevenbapi2401",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": true,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Exactly well presented. MR. Bird\nAnd if that project is operating then CEPA has failed us form heard our gravances😢",
+      "author": "@user-Ponyeng",
+      "video_id": "WE8076l-8sw",
+      "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "The Papua New Guinea Government has a big responsibly but continues to fail in protecting and delivering the social, economic and welfare guarantee for its citizen. The population have lost trust in its leaders, and as a Sepik how can we be sure that our rights are protected, our way of life can continue to thrive. The Government that was supposed to protected will be sided with company and we cannot be guarantee anything at this stage. Thank you My Governor for speaking, the country has no standards, and we don't even have an effective enforcement agency to keep those companies checks and keep up with the standards.",
       "author": "@khamalai",
