@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-06-01T14:55:42.894530",
-  "lastUpdated": "01/06/2026, 14:55:42",
+  "timestamp": "2026-06-02T12:36:50.622179",
+  "lastUpdated": "02/06/2026, 12:36:50",
   "stats": {
-    "total": 34,
+    "total": 35,
     "positive": 12,
     "negative": 1,
-    "neutral": 21,
-    "positive_pct": 35.3,
+    "neutral": 22,
+    "positive_pct": 34.3,
     "negative_pct": 2.9,
-    "neutral_pct": 61.8,
+    "neutral_pct": 62.9,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (61.8%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🌱 Growing community (34 comments). Encourage discussion through strategic questions and community interaction."
+    "→ High neutral sentiment (62.9%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🌱 Growing community (35 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
     {
@@ -1073,6 +1073,34 @@
       "author": "@AbelDubana",
       "video_id": "WE8076l-8sw",
       "video_title": "East Sepik Province Governor Allan Bird on the Frieda River Copper-Gold Project",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Madam why people working on foreign ships coming to port  are harassed in PNG just for money plz do something about it.",
+      "author": "@vinnycute",
+      "video_id": "r9BSPR432_o",
+      "video_title": "Maritime Security in PNG #PapuaNewGuinea #PawaNius #Education",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
