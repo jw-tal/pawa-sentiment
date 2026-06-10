@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-06-09T11:56:33.840123",
-  "lastUpdated": "09/06/2026, 11:56:33",
+  "timestamp": "2026-06-10T12:16:36.167493",
+  "lastUpdated": "10/06/2026, 12:16:36",
   "stats": {
-    "total": 35,
+    "total": 36,
     "positive": 12,
     "negative": 1,
-    "neutral": 22,
-    "positive_pct": 34.3,
-    "negative_pct": 2.9,
-    "neutral_pct": 62.9,
+    "neutral": 23,
+    "positive_pct": 33.3,
+    "negative_pct": 2.8,
+    "neutral_pct": 63.9,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (62.9%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🌱 Growing community (35 comments). Encourage discussion through strategic questions and community interaction."
+    "→ High neutral sentiment (63.9%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🌱 Growing community (36 comments). Encourage discussion through strategic questions and community interaction."
   ],
   "topPositive": [
     {
@@ -56,6 +56,34 @@
     }
   ],
   "allComments": [
+    {
+      "text": "Just stop government officials wasteful overseas trip.",
+      "author": "@BalePuio-x6v",
+      "video_id": "oDryA2Nis3Q",
+      "video_title": "What Is PNG’s K50 Green Fee? #PapuaNewGuinea #PawaNius #Environment",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Simple JUST SAY KNOW TO FRIEDA MINE NO WAFI GOLPU - yumi short lo wanem na laik dig, kamapim hul lo olgeta hap lo liklik PNG island nogat giruan now. Population blow up na giraun shot yah yupla lukim tu o",
       "author": "@stevenbapi2401",
