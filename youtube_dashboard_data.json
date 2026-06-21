@@ -1,23 +1,64 @@
 {
-  "timestamp": "2026-06-20T11:12:29.256404",
-  "lastUpdated": "20/06/2026, 11:12:29",
+  "timestamp": "2026-06-21T11:41:39.644360",
+  "lastUpdated": "21/06/2026, 11:41:39",
   "stats": {
-    "total": 2,
-    "positive": 0,
+    "total": 3,
+    "positive": 1,
     "negative": 0,
     "neutral": 2,
-    "positive_pct": 0.0,
+    "positive_pct": 33.3,
     "negative_pct": 0.0,
-    "neutral_pct": 100.0,
+    "neutral_pct": 66.7,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [],
+  "topPositive": [
+    {
+      "text": "Thank you, I learnt something today",
+      "author": "@hansleyrouma4642",
+      "score": 1.2,
+      "confidence": "medium"
+    }
+  ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Thank you, I learnt something today",
+      "author": "@hansleyrouma4642",
+      "video_id": "qmq8btnPXBs",
+      "video_title": "The Story Behind PNG’s Meri Blouse #PapuaNewGuinea #PawaNius #History",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Nonsense in png culture",
       "author": "@MathewGui",
