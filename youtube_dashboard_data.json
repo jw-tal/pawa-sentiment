@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-06-25T11:36:28.184605",
-  "lastUpdated": "25/06/2026, 11:36:28",
+  "timestamp": "2026-06-26T11:41:44.212103",
+  "lastUpdated": "26/06/2026, 11:41:44",
   "stats": {
-    "total": 3,
+    "total": 4,
     "positive": 1,
     "negative": 0,
-    "neutral": 2,
-    "positive_pct": 33.3,
+    "neutral": 3,
+    "positive_pct": 25.0,
     "negative_pct": 0.0,
-    "neutral_pct": 66.7,
+    "neutral_pct": 75.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (75.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -25,6 +25,34 @@
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Hi. Does PNG have a national insurer run by the government?",
+      "author": "@empohess4972",
+      "video_id": "PiI9r_ZvqE4",
+      "video_title": "PNG’s Growing Cancer Challenge #PapuaNewGuinea #PawaNius #Health",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": true
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Thank you, I learnt something today",
       "author": "@hansleyrouma4642",
