@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-07-02T11:29:50.388258",
-  "lastUpdated": "02/07/2026, 11:29:50",
+  "timestamp": "2026-07-03T11:28:16.368202",
+  "lastUpdated": "03/07/2026, 11:28:16",
   "stats": {
-    "total": 4,
+    "total": 5,
     "positive": 1,
     "negative": 0,
-    "neutral": 3,
-    "positive_pct": 25.0,
+    "neutral": 4,
+    "positive_pct": 20.0,
     "negative_pct": 0.0,
-    "neutral_pct": 75.0,
+    "neutral_pct": 80.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (75.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (80.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -25,6 +25,34 @@
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Of course both. Papua New Guinea leans into acquiring practical skills and competencies within TVET, clinical and health and teaching jobs. Yet, the critical gap lies in the 21st century thinking of innovation and creativity, collaboration and PNG values that are not well captured in our university undergraduate programs. More remains to be explored. I'm sure there are TVET to University pathways for specific programs.",
+      "author": "@irenesemos3661",
+      "video_id": "zfo8NSM3uK0",
+      "video_title": "TVET or University: Which Path Is Right? #PapuaNewGuinea #PawaNius #Education",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": true,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": true,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Hi. Does PNG have a national insurer run by the government?",
       "author": "@empohess4972",
