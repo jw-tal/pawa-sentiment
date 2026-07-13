@@ -1,21 +1,27 @@
 {
-  "timestamp": "2026-07-12T10:22:02.906278",
-  "lastUpdated": "12/07/2026, 10:22:02",
+  "timestamp": "2026-07-13T11:56:11.813461",
+  "lastUpdated": "13/07/2026, 11:56:11",
   "stats": {
-    "total": 5,
-    "positive": 1,
+    "total": 6,
+    "positive": 2,
     "negative": 0,
     "neutral": 4,
-    "positive_pct": 20.0,
+    "positive_pct": 33.3,
     "negative_pct": 0.0,
-    "neutral_pct": 80.0,
+    "neutral_pct": 66.7,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (80.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
+    {
+      "text": "Excellent setup and productivity. May I know the software that you are using?",
+      "author": "@pngrandomvideo",
+      "score": 1.44,
+      "confidence": "medium"
+    },
     {
       "text": "Thank you, I learnt something today",
       "author": "@hansleyrouma4642",
@@ -25,6 +31,40 @@
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Excellent setup and productivity. May I know the software that you are using?",
+      "author": "@pngrandomvideo",
+      "video_id": "vZ3IaIkDv_c",
+      "video_title": "Why Every Papua New Guinean Needs an NID Card #PapuaNewGuinea #PawaNius #Education",
+      "sentiment": "Positive",
+      "sentiment_score": 1.44,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.44,
+        "negative_score": 0.0,
+        "total_magnitude": 1.44,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": true
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "excellent",
+              "weight": 1.8,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Of course both. Papua New Guinea leans into acquiring practical skills and competencies within TVET, clinical and health and teaching jobs. Yet, the critical gap lies in the 21st century thinking of innovation and creativity, collaboration and PNG values that are not well captured in our university undergraduate programs. More remains to be explored. I'm sure there are TVET to University pathways for specific programs.",
       "author": "@irenesemos3661",
