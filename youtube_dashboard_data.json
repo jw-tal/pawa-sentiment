@@ -1,19 +1,18 @@
 {
-  "timestamp": "2026-07-14T10:40:45.631405",
-  "lastUpdated": "14/07/2026, 10:40:45",
+  "timestamp": "2026-07-15T10:43:58.038189",
+  "lastUpdated": "15/07/2026, 10:43:58",
   "stats": {
-    "total": 6,
+    "total": 5,
     "positive": 2,
     "negative": 0,
-    "neutral": 4,
-    "positive_pct": 33.3,
+    "neutral": 3,
+    "positive_pct": 40.0,
     "negative_pct": 0.0,
-    "neutral_pct": 66.7,
+    "neutral_pct": 60.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (5 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -173,34 +172,6 @@
           "has_diminisher": false,
           "has_brand": false,
           "has_location": true,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Just stop government officials wasteful overseas trip.",
-      "author": "@BalePuio-x6v",
-      "video_id": "oDryA2Nis3Q",
-      "video_title": "What Is PNG’s K50 Green Fee? #PapuaNewGuinea #PawaNius #Environment",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
           "exclamation_count": 0,
           "is_all_caps": false,
           "has_question": false
