@@ -1,31 +1,25 @@
 {
-  "timestamp": "2026-07-26T10:40:19.997067",
-  "lastUpdated": "26/07/2026, 10:40:19",
+  "timestamp": "2026-07-27T12:16:02.962398",
+  "lastUpdated": "27/07/2026, 12:16:02",
   "stats": {
-    "total": 4,
-    "positive": 2,
+    "total": 3,
+    "positive": 1,
     "negative": 0,
     "neutral": 2,
-    "positive_pct": 50.0,
+    "positive_pct": 33.3,
     "negative_pct": 0.0,
-    "neutral_pct": 50.0,
+    "neutral_pct": 66.7,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
       "text": "Excellent setup and productivity. May I know the software that you are using?",
       "author": "@pngrandomvideo",
       "score": 1.44,
-      "confidence": "medium"
-    },
-    {
-      "text": "Thank you, I learnt something today",
-      "author": "@hansleyrouma4642",
-      "score": 1.2,
       "confidence": "medium"
     }
   ],
@@ -117,40 +111,6 @@
         },
         "matched_terms": {
           "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Thank you, I learnt something today",
-      "author": "@hansleyrouma4642",
-      "video_id": "qmq8btnPXBs",
-      "video_title": "The Story Behind PNG’s Meri Blouse #PapuaNewGuinea #PawaNius #History",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "thank",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
           "negative": []
         }
       }
