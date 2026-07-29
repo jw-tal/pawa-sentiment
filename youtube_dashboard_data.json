@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-07-28T11:12:16.142161",
-  "lastUpdated": "28/07/2026, 11:12:16",
+  "timestamp": "2026-07-29T11:20:06.875399",
+  "lastUpdated": "29/07/2026, 11:20:06",
   "stats": {
-    "total": 3,
+    "total": 2,
     "positive": 1,
     "negative": 0,
-    "neutral": 2,
-    "positive_pct": 33.3,
+    "neutral": 1,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 66.7,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
-    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -80,34 +80,6 @@
           "exclamation_count": 0,
           "is_all_caps": false,
           "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Hi. Does PNG have a national insurer run by the government?",
-      "author": "@empohess4972",
-      "video_id": "PiI9r_ZvqE4",
-      "video_title": "PNG’s Growing Cancer Challenge #PapuaNewGuinea #PawaNius #Health",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": true,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": true
         },
         "matched_terms": {
           "positive": [],
