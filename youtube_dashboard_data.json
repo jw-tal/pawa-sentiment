@@ -1,27 +1,21 @@
 {
-  "timestamp": "2026-08-06T11:15:46.997764",
-  "lastUpdated": "06/08/2026, 11:15:46",
+  "timestamp": "2026-08-07T09:55:47.780885",
+  "lastUpdated": "07/08/2026, 09:55:47",
   "stats": {
-    "total": 3,
-    "positive": 2,
+    "total": 2,
+    "positive": 1,
     "negative": 0,
     "neutral": 1,
-    "positive_pct": 66.7,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 33.3,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Strong positive sentiment (66.7%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
-    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
-    {
-      "text": "That's an interesting question to answer  that you ask towards the end of the  video. I'm contemplating.",
-      "author": "@EmmanuelNent",
-      "score": 1.2,
-      "confidence": "medium"
-    },
     {
       "text": "Excellent setup and productivity. May I know the software that you are using?",
       "author": "@pngrandomvideo",
@@ -31,40 +25,6 @@
   ],
   "topNegative": [],
   "allComments": [
-    {
-      "text": "That's an interesting question to answer  that you ask towards the end of the  video. I'm contemplating.",
-      "author": "@EmmanuelNent",
-      "video_id": "MeI14PUfJ-A",
-      "video_title": "What Is PNG&#39;s Kumul 23 Unit? #PapuaNewGuinea #PawaNius #LawAndJustice",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "interesting",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
-          "negative": []
-        }
-      }
-    },
     {
       "text": "Excellent setup and productivity. May I know the software that you are using?",
       "author": "@pngrandomvideo",
