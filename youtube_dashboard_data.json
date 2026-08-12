@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-11T09:55:23.143657",
-  "lastUpdated": "11/08/2026, 09:55:23",
+  "timestamp": "2026-08-12T09:56:20.823228",
+  "lastUpdated": "12/08/2026, 09:56:20",
   "stats": {
-    "total": 2,
-    "positive": 2,
+    "total": 1,
+    "positive": 1,
     "negative": 0,
     "neutral": 0,
     "positive_pct": 100.0,
@@ -13,19 +13,13 @@
   },
   "recommendations": [
     "✓ Strong positive sentiment (100.0%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (1 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
       "text": "That's an interesting question to answer  that you ask towards the end of the  video. I'm contemplating.",
       "author": "@EmmanuelNent",
       "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "Excellent setup and productivity. May I know the software that you are using?",
-      "author": "@pngrandomvideo",
-      "score": 1.44,
       "confidence": "medium"
     }
   ],
@@ -58,40 +52,6 @@
             {
               "term": "interesting",
               "weight": 1.2,
-              "count": 1
-            }
-          ],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Excellent setup and productivity. May I know the software that you are using?",
-      "author": "@pngrandomvideo",
-      "video_id": "vZ3IaIkDv_c",
-      "video_title": "Why Every Papua New Guinean Needs an NID Card #PapuaNewGuinea #PawaNius #Education",
-      "sentiment": "Positive",
-      "sentiment_score": 1.44,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.44,
-        "negative_score": 0.0,
-        "total_magnitude": 1.44,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": true
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "excellent",
-              "weight": 1.8,
               "count": 1
             }
           ],
