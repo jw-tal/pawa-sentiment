@@ -1,45 +1,38 @@
 {
-  "timestamp": "2026-08-23T09:21:38.456636",
-  "lastUpdated": "23/08/2026, 09:21:38",
+  "timestamp": "2026-08-24T09:40:21.708529",
+  "lastUpdated": "24/08/2026, 09:40:21",
   "stats": {
     "total": 1,
-    "positive": 1,
+    "positive": 0,
     "negative": 0,
-    "neutral": 0,
-    "positive_pct": 100.0,
+    "neutral": 1,
+    "positive_pct": 0.0,
     "negative_pct": 0.0,
-    "neutral_pct": 0.0,
+    "neutral_pct": 100.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Strong positive sentiment (100.0%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
+    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
     "🎬 Early-stage engagement (1 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [
-    {
-      "text": "That's an interesting question to answer  that you ask towards the end of the  video. I'm contemplating.",
-      "author": "@EmmanuelNent",
-      "score": 1.2,
-      "confidence": "medium"
-    }
-  ],
+  "topPositive": [],
   "topNegative": [],
   "allComments": [
     {
-      "text": "That's an interesting question to answer  that you ask towards the end of the  video. I'm contemplating.",
-      "author": "@EmmanuelNent",
-      "video_id": "MeI14PUfJ-A",
-      "video_title": "What Is PNG&#39;s Kumul 23 Unit? #PapuaNewGuinea #PawaNius #LawAndJustice",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
+      "text": "There are too many ghost project. A proper audit should be carried out to confirm.",
+      "author": "@ApelisWilliiam",
+      "video_id": "zMTOx6F9_9g",
+      "video_title": "Where Does PNG&#39;s Infrastructure Money Go? #PapuaNewGuinea #PawaNius #Economics #Shorts",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
       "details": {
-        "positive_score": 1.2,
+        "positive_score": 0.0,
         "negative_score": 0.0,
-        "total_magnitude": 1.2,
+        "total_magnitude": 0.0,
         "context_modifiers": {
           "has_negation": false,
-          "has_amplifier": false,
+          "has_amplifier": true,
           "has_diminisher": false,
           "has_brand": false,
           "has_location": false,
@@ -48,13 +41,7 @@
           "has_question": false
         },
         "matched_terms": {
-          "positive": [
-            {
-              "term": "interesting",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
+          "positive": [],
           "negative": []
         }
       }
