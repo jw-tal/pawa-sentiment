@@ -1,47 +1,60 @@
 {
-  "timestamp": "2026-08-28T20:37:16.468743",
-  "lastUpdated": "28/08/2026, 20:37:16",
+  "timestamp": "2026-08-29T14:07:17.452875",
+  "lastUpdated": "29/08/2026, 14:07:17",
   "stats": {
     "total": 1,
-    "positive": 0,
+    "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "positive_pct": 0.0,
+    "neutral": 0,
+    "positive_pct": 100.0,
     "negative_pct": 0.0,
-    "neutral_pct": 100.0,
+    "neutral_pct": 0.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "→ High neutral sentiment (100.0%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "✓ Strong positive sentiment (100.0%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
     "🎬 Early-stage engagement (1 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
-  "topPositive": [],
+  "topPositive": [
+    {
+      "text": "Excellent setup and productivity. May I know the software that you are using?",
+      "author": "@pngrandomvideo",
+      "score": 1.44,
+      "confidence": "medium"
+    }
+  ],
   "topNegative": [],
   "allComments": [
     {
-      "text": "There are too many ghost project. A proper audit should be carried out to confirm.",
-      "author": "@ApelisWilliiam",
-      "video_id": "zMTOx6F9_9g",
-      "video_title": "Where Does PNG&#39;s Infrastructure Money Go? #PapuaNewGuinea #PawaNius #Economics #Shorts",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
+      "text": "Excellent setup and productivity. May I know the software that you are using?",
+      "author": "@pngrandomvideo",
+      "video_id": "vZ3IaIkDv_c",
+      "video_title": "Why Every Papua New Guinean Needs an NID Card #PapuaNewGuinea #PawaNius #Education",
+      "sentiment": "Positive",
+      "sentiment_score": 1.44,
+      "confidence": "medium",
       "details": {
-        "positive_score": 0.0,
+        "positive_score": 1.44,
         "negative_score": 0.0,
-        "total_magnitude": 0.0,
+        "total_magnitude": 1.44,
         "context_modifiers": {
           "has_negation": false,
-          "has_amplifier": true,
+          "has_amplifier": false,
           "has_diminisher": false,
           "has_brand": false,
           "has_location": false,
           "exclamation_count": 0,
           "is_all_caps": false,
-          "has_question": false
+          "has_question": true
         },
         "matched_terms": {
-          "positive": [],
+          "positive": [
+            {
+              "term": "excellent",
+              "weight": 1.8,
+              "count": 1
+            }
+          ],
           "negative": []
         }
       }
