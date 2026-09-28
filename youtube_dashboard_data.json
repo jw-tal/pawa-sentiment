@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-27T14:30:57.978406",
-  "lastUpdated": "27/09/2026, 14:30:57",
+  "timestamp": "2026-09-28T17:16:17.944018",
+  "lastUpdated": "28/09/2026, 17:16:17",
   "stats": {
-    "total": 2,
+    "total": 3,
     "positive": 1,
     "negative": 0,
-    "neutral": 1,
-    "positive_pct": 50.0,
+    "neutral": 2,
+    "positive_pct": 33.3,
     "negative_pct": 0.0,
-    "neutral_pct": 50.0,
+    "neutral_pct": 66.7,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "→ High neutral sentiment (66.7%) - opportunity for deeper engagement. Add more calls-to-action and emotionally resonant content to convert neutral viewers.",
+    "🎬 Early-stage engagement (3 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
-      "text": "Love your video sister. Keep them coming.",
-      "author": "@nathanndruwin1782",
+      "text": "Trusted keep going. Great info 🫡💯",
+      "author": "@ErnestInanei",
       "score": 1.2,
       "confidence": "medium"
     }
@@ -26,10 +26,38 @@
   "topNegative": [],
   "allComments": [
     {
-      "text": "Love your video sister. Keep them coming.",
-      "author": "@nathanndruwin1782",
-      "video_id": "dIu7lUR0y7k",
-      "video_title": "Can PNG&#39;s Traditional Foods Compete With Imports? #shorts #PapuaNewGuinea #PawaNius #Economics",
+      "text": "❤❤❤",
+      "author": "@SonyaThomas-m5d",
+      "video_id": "_W4y9Vvbd9s",
+      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Trusted keep going. Great info 🫡💯",
+      "author": "@ErnestInanei",
+      "video_id": "_W4y9Vvbd9s",
+      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
       "sentiment": "Positive",
       "sentiment_score": 1.2,
       "confidence": "medium",
@@ -50,7 +78,7 @@
         "matched_terms": {
           "positive": [
             {
-              "term": "love",
+              "term": "great",
               "weight": 1.2,
               "count": 1
             }
