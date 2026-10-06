@@ -1,24 +1,36 @@
 {
-  "timestamp": "2026-10-05T17:44:40.825689",
-  "lastUpdated": "05/10/2026, 17:44:40",
+  "timestamp": "2026-10-06T15:38:41.093910",
+  "lastUpdated": "06/10/2026, 15:38:41",
   "stats": {
-    "total": 2,
-    "positive": 1,
+    "total": 4,
+    "positive": 3,
     "negative": 0,
     "neutral": 1,
-    "positive_pct": 50.0,
+    "positive_pct": 75.0,
     "negative_pct": 0.0,
-    "neutral_pct": 50.0,
+    "neutral_pct": 25.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (2 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Strong positive sentiment (75.0%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
+    "🎬 Early-stage engagement (4 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
       "text": "its good",
       "author": "@odoggariku17066",
+      "score": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "text": "Trusted keep going. Great info 🫡💯",
+      "author": "@ErnestInanei",
+      "score": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "text": "Love your video sister. Keep them coming.",
+      "author": "@nathanndruwin1782",
       "score": 1.2,
       "confidence": "medium"
     }
@@ -60,10 +72,10 @@
       }
     },
     {
-      "text": "I wonder if they would have fought for independence if they didn't have trillions in copper and gold in the ground. It's a tough question. I think no, but I do think Bougainville citizens should have received much higher rewards..",
-      "author": "@Schlafen-wx1kx",
-      "video_id": "wZvKnzm6Y-Q",
-      "video_title": "The Meekamui Movement Explained #shorts #PapuaNewGuinea #PawaNius #History",
+      "text": "❤❤❤",
+      "author": "@SonyaThomas-m5d",
+      "video_id": "_W4y9Vvbd9s",
+      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
       "sentiment": "Neutral",
       "sentiment_score": 0.0,
       "confidence": "low",
@@ -72,8 +84,8 @@
         "negative_score": 0.0,
         "total_magnitude": 0.0,
         "context_modifiers": {
-          "has_negation": true,
-          "has_amplifier": true,
+          "has_negation": false,
+          "has_amplifier": false,
           "has_diminisher": false,
           "has_brand": false,
           "has_location": false,
@@ -83,6 +95,74 @@
         },
         "matched_terms": {
           "positive": [],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Trusted keep going. Great info 🫡💯",
+      "author": "@ErnestInanei",
+      "video_id": "_W4y9Vvbd9s",
+      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "great",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "Love your video sister. Keep them coming.",
+      "author": "@nathanndruwin1782",
+      "video_id": "dIu7lUR0y7k",
+      "video_title": "Can PNG&#39;s Traditional Foods Compete With Imports? #shorts #PapuaNewGuinea #PawaNius #Economics",
+      "sentiment": "Positive",
+      "sentiment_score": 1.2,
+      "confidence": "medium",
+      "details": {
+        "positive_score": 1.2,
+        "negative_score": 0.0,
+        "total_magnitude": 1.2,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "love",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
           "negative": []
         }
       }
