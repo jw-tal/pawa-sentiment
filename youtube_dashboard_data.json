@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-19T16:06:57.065814",
-  "lastUpdated": "19/10/2026, 16:06:57",
+  "timestamp": "2026-10-20T14:02:29.980464",
+  "lastUpdated": "20/10/2026, 14:02:29",
   "stats": {
-    "total": 6,
+    "total": 7,
     "positive": 4,
     "negative": 0,
-    "neutral": 2,
-    "positive_pct": 66.7,
+    "neutral": 3,
+    "positive_pct": 57.1,
     "negative_pct": 0.0,
-    "neutral_pct": 33.3,
+    "neutral_pct": 42.9,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Strong positive sentiment (66.7%) - PNG audience highly engaged. Found 0 high-confidence positive comments. Continue current content strategy and increase posting frequency.",
-    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (57.1%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (7 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -101,6 +101,34 @@
               "count": 1
             }
           ],
+          "negative": []
+        }
+      }
+    },
+    {
+      "text": "😭😭😭",
+      "author": "@JockiesKale-p4u",
+      "video_id": "Gwe0dXmOPIQ",
+      "video_title": "How El Niño Is Threatening PNG&#39;s Food Supply #Shorts #PapuaNewGuinea #PawaNius #Environment",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
           "negative": []
         }
       }
