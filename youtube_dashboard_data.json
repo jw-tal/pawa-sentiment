@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-22T14:17:30.526669",
-  "lastUpdated": "22/10/2026, 14:17:30",
+  "timestamp": "2026-10-23T14:00:36.788952",
+  "lastUpdated": "23/10/2026, 14:00:36",
   "stats": {
-    "total": 7,
+    "total": 8,
     "positive": 4,
     "negative": 0,
-    "neutral": 3,
-    "positive_pct": 57.1,
+    "neutral": 4,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 42.9,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (57.1%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (7 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (8 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -43,6 +43,34 @@
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Minimum age range shown in;\nSurvey: >14 years\nIn the slums & streets: >9 - 10 years (unsurveyed)\n\nOne of the many essential issue in our country. 😔",
+      "author": "@TeineBilly",
+      "video_id": "ct2L7i_u2Ww",
+      "video_title": "The Dangerous Reality of Tobacco Addiction in PNG #shorts #PapuaNewGuinea #PawaNius #Health",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.0,
+      "confidence": "low",
+      "details": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "total_magnitude": 0.0,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "We require energy mix",
       "author": "@WilliamGoa-s9r",
