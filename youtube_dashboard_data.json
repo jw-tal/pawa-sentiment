@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-26T15:44:45.011841",
-  "lastUpdated": "26/10/2026, 15:44:45",
+  "timestamp": "2026-10-27T15:04:26.412795",
+  "lastUpdated": "27/10/2026, 15:04:26",
   "stats": {
-    "total": 8,
-    "positive": 4,
+    "total": 6,
+    "positive": 3,
     "negative": 0,
-    "neutral": 4,
+    "neutral": 3,
     "positive_pct": 50.0,
     "negative_pct": 0.0,
     "neutral_pct": 50.0,
@@ -13,7 +13,7 @@
   },
   "recommendations": [
     "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (8 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (6 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -25,12 +25,6 @@
     {
       "text": "its good",
       "author": "@odoggariku17066",
-      "score": 1.2,
-      "confidence": "medium"
-    },
-    {
-      "text": "Trusted keep going. Great info 🫡💯",
-      "author": "@ErnestInanei",
       "score": 1.2,
       "confidence": "medium"
     },
@@ -187,68 +181,6 @@
           "positive": [
             {
               "term": "good",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "❤❤❤",
-      "author": "@SonyaThomas-m5d",
-      "video_id": "_W4y9Vvbd9s",
-      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Trusted keep going. Great info 🫡💯",
-      "author": "@ErnestInanei",
-      "video_id": "_W4y9Vvbd9s",
-      "video_title": "The Coastwatchers of PNG: The Kalibobo Lighthouse #shorts #PapuaNewGuinea #PawaNius #History",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "great",
               "weight": 1.2,
               "count": 1
             }
