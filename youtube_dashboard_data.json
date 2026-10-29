@@ -1,21 +1,27 @@
 {
-  "timestamp": "2026-10-28T15:40:25.242112",
-  "lastUpdated": "28/10/2026, 15:40:25",
+  "timestamp": "2026-10-29T15:47:27.167270",
+  "lastUpdated": "29/10/2026, 15:47:27",
   "stats": {
-    "total": 11,
-    "positive": 5,
+    "total": 12,
+    "positive": 6,
     "negative": 0,
     "neutral": 6,
-    "positive_pct": 45.5,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 54.5,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (45.5%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (11 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (12 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
+    {
+      "text": "Educational and very informative, keep up the good work",
+      "author": "@SaubTabil",
+      "score": 3.12,
+      "confidence": "high"
+    },
     {
       "text": "Well done young girl.",
       "author": "@fainact6572",
@@ -39,16 +45,49 @@
       "author": "@ErnestInanei",
       "score": 1.2,
       "confidence": "medium"
-    },
-    {
-      "text": "Love your video sister. Keep them coming.",
-      "author": "@nathanndruwin1782",
-      "score": 1.2,
-      "confidence": "medium"
     }
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "Educational and very informative, keep up the good work",
+      "author": "@SaubTabil",
+      "video_id": "9EZNjyBLlF4",
+      "video_title": "How PNG’s Southern Region Got Its Names #PapuaNewGuinea #PawaNius #History",
+      "sentiment": "Positive",
+      "sentiment_score": 3.12,
+      "confidence": "high",
+      "details": {
+        "positive_score": 3.12,
+        "negative_score": 0.0,
+        "total_magnitude": 3.12,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": true,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "good",
+              "weight": 1.2,
+              "count": 1
+            },
+            {
+              "term": "informative",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "❤",
       "author": "@obitotevez",
