@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-31T14:57:23.212082",
-  "lastUpdated": "31/10/2026, 14:57:23",
+  "timestamp": "2026-11-01T15:41:44.422922",
+  "lastUpdated": "01/11/2026, 15:41:44",
   "stats": {
-    "total": 12,
-    "positive": 6,
+    "total": 10,
+    "positive": 5,
     "negative": 0,
-    "neutral": 6,
+    "neutral": 5,
     "positive_pct": 50.0,
     "negative_pct": 0.0,
     "neutral_pct": 50.0,
@@ -13,7 +13,7 @@
   },
   "recommendations": [
     "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (12 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "🎬 Early-stage engagement (10 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -29,12 +29,6 @@
       "confidence": "medium"
     },
     {
-      "text": "Ok😅",
-      "author": "@RJMKJimmy",
-      "score": 0.7,
-      "confidence": "medium"
-    },
-    {
       "text": "its good",
       "author": "@odoggariku17066",
       "score": 1.2,
@@ -43,6 +37,12 @@
     {
       "text": "Trusted keep going. Great info 🫡💯",
       "author": "@ErnestInanei",
+      "score": 1.2,
+      "confidence": "medium"
+    },
+    {
+      "text": "Love your video sister. Keep them coming.",
+      "author": "@nathanndruwin1782",
       "score": 1.2,
       "confidence": "medium"
     }
@@ -202,68 +202,6 @@
         },
         "matched_terms": {
           "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "We require energy mix",
-      "author": "@WilliamGoa-s9r",
-      "video_id": "fBB89lKlhvE",
-      "video_title": "Why PNG Struggles With Water Despite Thousands of Rivers #PapuaNewGuinea #PawaNius #Education",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "Ok😅",
-      "author": "@RJMKJimmy",
-      "video_id": "fBB89lKlhvE",
-      "video_title": "Why PNG Struggles With Water Despite Thousands of Rivers #PapuaNewGuinea #PawaNius #Education",
-      "sentiment": "Positive",
-      "sentiment_score": 0.7,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 0.7,
-        "negative_score": 0.0,
-        "total_magnitude": 0.7,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "ok",
-              "weight": 0.7,
-              "count": 1
-            }
-          ],
           "negative": []
         }
       }
