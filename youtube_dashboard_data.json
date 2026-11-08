@@ -1,21 +1,27 @@
 {
-  "timestamp": "2026-11-07T15:20:57.555300",
-  "lastUpdated": "07/11/2026, 15:20:57",
+  "timestamp": "2026-11-08T15:43:11.252461",
+  "lastUpdated": "08/11/2026, 15:43:11",
   "stats": {
-    "total": 11,
-    "positive": 5,
+    "total": 12,
+    "positive": 6,
     "negative": 0,
     "neutral": 6,
-    "positive_pct": 45.5,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 54.5,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (45.5%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (11 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (12 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
+    {
+      "text": "this is great. thank you. self sufficiency in rice production is a challenge whose time has come.",
+      "author": "@kennethbale9680",
+      "score": 2.4,
+      "confidence": "high"
+    },
     {
       "text": "Thank you for this, my Grandfather and Grand Uncle served as far as Buna as Carriers.",
       "author": "@kennethbale9680",
@@ -39,16 +45,49 @@
       "author": "@RJMKJimmy",
       "score": 0.7,
       "confidence": "medium"
-    },
-    {
-      "text": "its good",
-      "author": "@odoggariku17066",
-      "score": 1.2,
-      "confidence": "medium"
     }
   ],
   "topNegative": [],
   "allComments": [
+    {
+      "text": "this is great. thank you. self sufficiency in rice production is a challenge whose time has come.",
+      "author": "@kennethbale9680",
+      "video_id": "5CwRflwB3hs",
+      "video_title": "Why Can&#39;t PNG Grow Its Own Rice? #Shorts #PapuaNewGuinea #PawaNius #Agriculture",
+      "sentiment": "Positive",
+      "sentiment_score": 2.4,
+      "confidence": "high",
+      "details": {
+        "positive_score": 2.4,
+        "negative_score": 0.0,
+        "total_magnitude": 2.4,
+        "context_modifiers": {
+          "has_negation": false,
+          "has_amplifier": false,
+          "has_diminisher": false,
+          "has_brand": false,
+          "has_location": false,
+          "exclamation_count": 0,
+          "is_all_caps": false,
+          "has_question": false
+        },
+        "matched_terms": {
+          "positive": [
+            {
+              "term": "great",
+              "weight": 1.2,
+              "count": 1
+            },
+            {
+              "term": "thank",
+              "weight": 1.2,
+              "count": 1
+            }
+          ],
+          "negative": []
+        }
+      }
+    },
     {
       "text": "Thank you for this, my Grandfather and Grand Uncle served as far as Buna as Carriers.",
       "author": "@kennethbale9680",
