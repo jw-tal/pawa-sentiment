@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-11-12T17:17:30.013947",
-  "lastUpdated": "12/11/2026, 17:17:30",
+  "timestamp": "2026-11-13T16:53:52.180366",
+  "lastUpdated": "13/11/2026, 16:53:52",
   "stats": {
-    "total": 12,
-    "positive": 6,
+    "total": 11,
+    "positive": 5,
     "negative": 0,
     "neutral": 6,
-    "positive_pct": 50.0,
+    "positive_pct": 45.5,
     "negative_pct": 0.0,
-    "neutral_pct": 50.0,
+    "neutral_pct": 54.5,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (12 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (45.5%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (11 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -393,40 +393,6 @@
         },
         "matched_terms": {
           "positive": [],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "its good",
-      "author": "@odoggariku17066",
-      "video_id": "I0LgGVn6oKI",
-      "video_title": "Could Coconuts Help Power PNG? #shorts #PapuaNewGuinea #PawaNius #Economics",
-      "sentiment": "Positive",
-      "sentiment_score": 1.2,
-      "confidence": "medium",
-      "details": {
-        "positive_score": 1.2,
-        "negative_score": 0.0,
-        "total_magnitude": 1.2,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [
-            {
-              "term": "good",
-              "weight": 1.2,
-              "count": 1
-            }
-          ],
           "negative": []
         }
       }
