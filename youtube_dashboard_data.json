@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-11-22T16:50:33.341455",
-  "lastUpdated": "22/11/2026, 16:50:33",
+  "timestamp": "2026-11-23T20:48:29.917393",
+  "lastUpdated": "23/11/2026, 20:48:29",
   "stats": {
-    "total": 11,
+    "total": 10,
     "positive": 5,
     "negative": 0,
-    "neutral": 6,
-    "positive_pct": 45.5,
+    "neutral": 5,
+    "positive_pct": 50.0,
     "negative_pct": 0.0,
-    "neutral_pct": 54.5,
+    "neutral_pct": 50.0,
     "average_score": 0.0
   },
   "recommendations": [
-    "✓ Healthy positive engagement (45.5%). Build on this momentum by responding to comments and creating similar content.",
-    "🎬 Early-stage engagement (11 comments). Focus on consistent posting and cross-platform promotion to build audience."
+    "✓ Healthy positive engagement (50.0%). Build on this momentum by responding to comments and creating similar content.",
+    "🎬 Early-stage engagement (10 comments). Focus on consistent posting and cross-platform promotion to build audience."
   ],
   "topPositive": [
     {
@@ -365,34 +365,6 @@
               "count": 1
             }
           ],
-          "negative": []
-        }
-      }
-    },
-    {
-      "text": "😭😭😭",
-      "author": "@JockiesKale-p4u",
-      "video_id": "Gwe0dXmOPIQ",
-      "video_title": "How El Niño Is Threatening PNG&#39;s Food Supply #Shorts #PapuaNewGuinea #PawaNius #Environment",
-      "sentiment": "Neutral",
-      "sentiment_score": 0.0,
-      "confidence": "low",
-      "details": {
-        "positive_score": 0.0,
-        "negative_score": 0.0,
-        "total_magnitude": 0.0,
-        "context_modifiers": {
-          "has_negation": false,
-          "has_amplifier": false,
-          "has_diminisher": false,
-          "has_brand": false,
-          "has_location": false,
-          "exclamation_count": 0,
-          "is_all_caps": false,
-          "has_question": false
-        },
-        "matched_terms": {
-          "positive": [],
           "negative": []
         }
       }
